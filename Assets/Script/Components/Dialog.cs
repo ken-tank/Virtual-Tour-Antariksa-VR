@@ -10,6 +10,7 @@ public class Dialog : MonoBehaviour
     VoiceLine.Dialog[] dialogs;
 
     Coroutine currentEngine = null;
+    SubtitleManager subtitleManager;
 
     void Start()
     {
@@ -33,7 +34,7 @@ public class Dialog : MonoBehaviour
 
     IEnumerator PlayLine(VoiceLine.Dialog dialog)
     {
-        SubtitleManager subtitleManager = GameManager.instance.subtitleManager;
+        subtitleManager = FindObjectOfType<SubtitleManager>();
         yield return new WaitForSeconds(dialog.delayStart);
         subtitleManager.CreateSubtitle(dialog.subtitle);
         if (!voiceSource) GameManager.instance.audioManager.voice.PlayOneShot(dialog.voice);
@@ -66,7 +67,7 @@ public class Dialog : MonoBehaviour
 
     public void StopDialog() 
     {
-        GameManager.instance.subtitleManager.HideSubtitle();
+        subtitleManager.HideSubtitle();
         if (!voiceSource) GameManager.instance.audioManager.voice.Stop();
         else voiceSource.Stop();
         StopAllCoroutines();

@@ -4,10 +4,10 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
     
-    [HideInInspector] public AudioManager audioManager = null;
+    
     public SceneSettings sceneSettings = null;
-    public SubtitleManager subtitleManager;
     [HideInInspector] public FrontCanvas frontCanvas = null;
+    [HideInInspector] public AudioManager audioManager = null;
 
     void Awake() 
     {
