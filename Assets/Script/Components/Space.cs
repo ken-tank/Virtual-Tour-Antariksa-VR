@@ -34,6 +34,11 @@ public class Space : MonoBehaviour
         time.second = timeSpan.Seconds;
     }
 
+    void FixedUpdate()
+    {
+        Shader.SetGlobalFloat("_CloudSpeedMult", spaceTime);
+    }
+
     void AddTime(int Y, int M, int D, int h, int m, int s) 
     {
         time.year += Y;
