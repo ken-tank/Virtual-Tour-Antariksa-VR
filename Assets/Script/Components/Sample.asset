@@ -17,23 +17,65 @@ MonoBehaviour:
     voice: {fileID: 8300000, guid: bcc4d20e78e45c84c9f66aebced57b70, type: 3}
     subtitle: Halo Gaes David di sini
     delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
   - delayStart: 0
     voice: {fileID: 8300000, guid: e1912060e5acc3b44848ca9c2033c653, type: 3}
     subtitle: dan saya baru beli 9 misteri box
     delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
   - delayStart: 0
     voice: {fileID: 8300000, guid: 2651fae599d2b8943b8950415c3907e5, type: 3}
     subtitle: plus ada 1 yang spesial ni
     delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
   - delayStart: 0
     voice: {fileID: 8300000, guid: e8e23a4216b238b4fb2531aeb8ca1e9e, type: 3}
     subtitle: kemaren ngikutin ig live pasti tau
     delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
   - delayStart: 0
     voice: {fileID: 8300000, guid: cc9b678dc242fde469ba3da553b7d3cd, type: 3}
     subtitle: ga sabar buat cobain yang ini
     delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
   - delayStart: 0
     voice: {fileID: 8300000, guid: f1c5e2081eb706f46b600c74f4f5d7de, type: 3}
     subtitle: harga dari tiap misteri box beda beda ya, yang ini ga ada harganya
     delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []

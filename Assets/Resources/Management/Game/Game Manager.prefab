@@ -97,7 +97,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneSettings: {fileID: 1236014802770630940}
-  subtitleManager: {fileID: 0}
   frontCanvas: {fileID: 0}
   audioManager: {fileID: 0}
 --- !u!114 &6985284136696834275
@@ -113,4 +112,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _audioMixer: {fileID: 24100000, guid: 3ed0a2462123b85469f6bf79abe1fe50, type: 2}
-  _framerateList: 1e0000002d0000003c0000005a000000
+  _framerateList: 1e0000003c0000005a000000

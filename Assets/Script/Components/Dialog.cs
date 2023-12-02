@@ -3,8 +3,8 @@ using UnityEngine;
 
 public class Dialog : MonoBehaviour
 {
-    [SerializeField] VoiceLine voiceLine;
-    [SerializeField] AudioSource voiceSource;
+    [SerializeField] VoiceLine.Dialog[] voiceLine;
+    [HideInInspector] public AudioSource voiceSource;
     [SerializeField] bool startOnAwake;
     
     VoiceLine.Dialog[] dialogs;
@@ -29,19 +29,21 @@ public class Dialog : MonoBehaviour
 
     public void Initialize() 
     {
-        dialogs = voiceLine.dialogs;
+        dialogs = voiceLine;
     }
 
     IEnumerator PlayLine(VoiceLine.Dialog dialog)
     {
         subtitleManager = FindObjectOfType<SubtitleManager>();
         yield return new WaitForSeconds(dialog.delayStart);
+        dialog.events.onStart.Invoke();
         subtitleManager.CreateSubtitle(dialog.subtitle);
         if (!voiceSource) GameManager.instance.audioManager.voice.PlayOneShot(dialog.voice);
         else voiceSource.PlayOneShot(dialog.voice);
         yield return new WaitForSeconds(dialog.voice.length);
         subtitleManager.HideSubtitle();
         yield return new WaitForSeconds(dialog.delayEnd);
+        dialog.events.onEnd.Invoke();
     }
 
     IEnumerator Engine() 
