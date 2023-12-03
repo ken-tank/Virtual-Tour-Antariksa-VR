@@ -25,11 +25,27 @@ public class Command : MonoBehaviour
     [System.Serializable] 
     public class CustomCommand {
         public string name;
+        public bool enable = true;
         public string[] commands;
         public UnityEvent onResult;
+
+        [Header("Editor Only")] public KeyCode sortcutKey;
+
+        public IEnumerator Engine() 
+        {
+            while (true)
+            {
+                if (Input.GetKeyDown(sortcutKey)) onResult.Invoke();
+                yield return null;
+            }
+        }
     }
 
     public CustomCommand[] customCommands;
+    public UnityEvent onSuccess, onFailed;
+
+    public void EnableCommand(int index) { customCommands[index].enable = true; }
+    public void DisableCommand(int index) { customCommands[index].enable = false; }
 
     void Awake()
     {
@@ -67,6 +83,7 @@ public class Command : MonoBehaviour
         {
             resultText.text = "Scene Berikutnya";
             yield return new WaitForSecondsRealtime(delay);
+            onSuccess.Invoke();
             NextScene();
         }
         else
@@ -74,11 +91,15 @@ public class Command : MonoBehaviour
             bool isContain = false;
             foreach (var item in customCommands)
             {
-                if (item.commands.Contains(value))
+                if (item.commands.Contains(value) && item.enable)
                 {
+                    #if(UNITY_EDITOR)
+                    StartCoroutine(item.Engine());
+                    #endif
                     resultText.text = item.name;
                     yield return new WaitForSecondsRealtime(delay);
                     item.onResult.Invoke();
+                    onSuccess.Invoke();
                     isContain = true;
                 }
             }
@@ -87,6 +108,7 @@ public class Command : MonoBehaviour
             {
                 resultText.text = "Perintah Belum Terdaftar";
                 yield return new WaitForSecondsRealtime(delay);
+                onFailed.Invoke();
             }
         }
 

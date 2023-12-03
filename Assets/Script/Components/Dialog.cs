@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Dialog : MonoBehaviour
 {
@@ -11,6 +12,8 @@ public class Dialog : MonoBehaviour
 
     Coroutine currentEngine = null;
     SubtitleManager subtitleManager;
+
+    public UnityEvent onStart, onEnd;
 
     void Start()
     {
@@ -38,9 +41,15 @@ public class Dialog : MonoBehaviour
         yield return new WaitForSeconds(dialog.delayStart);
         dialog.events.onStart.Invoke();
         subtitleManager.CreateSubtitle(dialog.subtitle);
-        if (!voiceSource) GameManager.instance.audioManager.voice.PlayOneShot(dialog.voice);
-        else voiceSource.PlayOneShot(dialog.voice);
-        yield return new WaitForSeconds(dialog.voice.length);
+        if (!voiceSource) 
+        {
+            if (dialog.voice) GameManager.instance.audioManager.voice.PlayOneShot(dialog.voice);
+        }
+        else
+        { 
+            if (dialog.voice) voiceSource.PlayOneShot(dialog.voice);
+        }
+        yield return new WaitForSeconds(dialog.voice ? dialog.voice.length : 1);
         subtitleManager.HideSubtitle();
         yield return new WaitForSeconds(dialog.delayEnd);
         dialog.events.onEnd.Invoke();
@@ -50,12 +59,14 @@ public class Dialog : MonoBehaviour
     {
         Initialize();
         yield return new WaitForEndOfFrame();
+        onStart.Invoke();
         foreach (var dialog in dialogs)
         {
             yield return StartCoroutine(PlayLine(dialog));
             yield return null;
         }
         currentEngine = null;
+        onEnd.Invoke();
     }
 
     public void StartDialog()
