@@ -26,13 +26,14 @@ public class VoiceListener : MonoBehaviour
         }
     }
 
+    public bool enableListener = false;
+    public static bool admin = false;
     [SerializeField] float startDelay = 2.5f;
     [SerializeField] UIInfo uIInfo;
 
     public UnityEvent onStart, onEnd;
 
     Coroutine coroutine = null;
-    bool enableListener = false;
 
     public void SetListenerEnable(bool value)
     {
@@ -41,7 +42,7 @@ public class VoiceListener : MonoBehaviour
 
     public void StartCommand() 
     {
-        if (!SpeechRecognizer.IsRecording() && enableListener)
+        if (!SpeechRecognizer.IsRecording() && (enableListener || admin))
         {
             coroutine ??= StartCoroutine(StartingListener());
         }

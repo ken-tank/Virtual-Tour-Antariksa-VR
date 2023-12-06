@@ -8,15 +8,15 @@ public class Planet : MonoBehaviour
     }
 
     [System.Serializable]
-    public class Properties {
+    public struct Properties {
         public string name;
         [Tooltip("Radius Per Kilometer")]
-        public float radius = 1;
+        public float radius;
         [Tooltip("Rotate In Radiant per Second")]
         public float rotationSpeed;
         public Planet orbit;
         public float orbitDistance;
-        public float orbitScale = 1;
+        public float orbitScale;
         public float orbitalSpeed;
 
         public float currentPlanetAngle;
@@ -95,6 +95,7 @@ public class Planet : MonoBehaviour
                 {
                     orbitPoint = new GameObject($"Orbit Point {properties.name}").transform;
                     orbitPoint.position = properties.orbit.transform.position;
+                    orbitPoint.localEulerAngles = new Vector3(orbitPoint.localEulerAngles.x, properties.currentOrbitAngle, orbitPoint.localEulerAngles.z);
                     transform.parent = orbitPoint;
                     orbitPoint.parent = properties.orbit.transform;
                     transform.localPosition = Vector3.zero;

@@ -19,6 +19,15 @@ public class Command : MonoBehaviour
         {"next scene", new string[] {
             "skip level", "level selanjutnya", "scene selanjutnya", "next scene",
             "next level", "skip level ini"
+        }},
+        {"back scene", new string[] {
+            "kembali", "level sebelumnya", "kembali ke level sebelumya", "kembali ke scene sebelumnya",
+            "scene sebelumnya", "sebelumnya"
+        }},
+        {"admin mode", new string[] {
+            "140401", "1 4 0 4 0 1", "14 04 01", "14 4 1", "1441",
+            "seratus empat puluh ribu empat ratus satu", "empat belas kosong empat kosong satu",
+            "satu empat kosong empat kosong satu"
         }}
     };
 
@@ -26,6 +35,7 @@ public class Command : MonoBehaviour
     public class CustomCommand {
         public string name;
         public bool enable = true;
+        [HideInInspector] public bool admin = false;
         public string[] commands;
         public UnityEvent onResult;
 
@@ -43,6 +53,7 @@ public class Command : MonoBehaviour
 
     public CustomCommand[] customCommands;
     public UnityEvent onSuccess, onFailed;
+    bool adminMode = false;
 
     public void EnableCommand(int index) { customCommands[index].enable = true; }
     public void DisableCommand(int index) { customCommands[index].enable = false; }
@@ -53,6 +64,7 @@ public class Command : MonoBehaviour
         listener.onFinalResults.AddListener(CalculateResult);
         listener.onErrorDuringRecording.AddListener(OnError);
         SpeechRecognizer.RequestAccess();
+        if (VoiceListener.admin) AdminMode();
     }
 
     public void CalculateResult(string value) 
@@ -79,19 +91,33 @@ public class Command : MonoBehaviour
             yield return new WaitForSecondsRealtime(delay);
             Quit(); 
         }
-        else if (commands["next scene"].Contains(value))
+        else if (commands["next scene"].Contains(value) && adminMode)
         {
             resultText.text = "Scene Berikutnya";
             yield return new WaitForSecondsRealtime(delay);
             onSuccess.Invoke();
             NextScene();
         }
+        else if (commands["back scene"].Contains(value) && adminMode)
+        {
+            resultText.text = "Kembali";
+            yield return new WaitForSecondsRealtime(delay);
+            onSuccess.Invoke();
+            BackScene();
+        }
+        else if (commands["admin mode"].Contains(value))
+        {
+            resultText.text = "Admin Mode";
+            yield return new WaitForSecondsRealtime(delay);
+            onSuccess.Invoke();
+            AdminMode();
+        }
         else
         {
             bool isContain = false;
             foreach (var item in customCommands)
             {
-                if (item.commands.Contains(value) && item.enable)
+                if ((item.commands.Contains(value) && item.enable) || item.admin)
                 {
                     #if(UNITY_EDITOR)
                     StartCoroutine(item.Engine());
@@ -122,11 +148,27 @@ public class Command : MonoBehaviour
 
     public void NextScene() 
     {
-        GameManager.instance.sceneSettings.NextScene();
+        FindObjectOfType<FlashPortal>().NextScene();
+    }
+
+    public void BackScene() 
+    {
+        FindObjectOfType<FlashPortal>().PreviousScene();
     }
 
     public void OnError(string error)
     {
         Debug.LogError(error);
+    }
+
+    public void AdminMode() 
+    {
+        adminMode = true;
+        foreach (var item in customCommands)
+        {
+            item.enable = true;
+            item.admin = true;
+        }
+        VoiceListener.admin = true;
     }
 }

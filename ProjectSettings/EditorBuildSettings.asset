@@ -6,11 +6,23 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Intro.unity
+    path: Assets/Scenes/Intro/Intro.unity
     guid: 4b43035c3b95c49468673b110fd7cce0
-  - enabled: 0
-    path: Assets/Templates/KKSpeechRecognizer/Example/ExampleScene.unity
-    guid: 1a1e869bff86843f48395c9dc3c133e8
+  - enabled: 1
+    path: Assets/Scenes/Tujuan 1/Tujuan 1.unity
+    guid: 8718c2f9ade50b449852e861887b6339
+  - enabled: 1
+    path: Assets/Scenes/Tujuan 2/Tujuan 2.unity
+    guid: fdb574c16650cd745b6a4c4f8d97fc56
+  - enabled: 1
+    path: Assets/Scenes/Tujuan 3/Tujuan 3.unity
+    guid: 44f1ec07c6f5a2240931fc60049032a5
+  - enabled: 1
+    path: Assets/Scenes/Tujuan 4/Tujuan 4.unity
+    guid: 222ccec88a278ac41ac057f594dcd1fa
+  - enabled: 1
+    path: Assets/Scenes/Tujuan 5/Tujuan 5.unity
+    guid: c27244c6a6e4e184b992ad9dadadcec1
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 38ebf632cb038894a8670d5d44add99d, type: 2}
     xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: 95d56f1273dcec54485e090e96781bc6, type: 2}
