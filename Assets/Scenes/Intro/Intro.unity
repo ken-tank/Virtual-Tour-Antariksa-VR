@@ -175,6 +175,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7366958056497079494, guid: 07b7a8c82d667874dbe548f3bd7393e5, type: 3}
+      propertyPath: onStart.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7366958056497079494, guid: 07b7a8c82d667874dbe548f3bd7393e5, type: 3}
       propertyPath: onEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 6
       objectReference: {fileID: 0}
@@ -183,7 +187,23 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1018678166}
     - target: {fileID: 7366958056497079494, guid: 07b7a8c82d667874dbe548f3bd7393e5, type: 3}
+      propertyPath: onStart.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7366958056497079494, guid: 07b7a8c82d667874dbe548f3bd7393e5, type: 3}
+      propertyPath: onStart.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1018678166}
+    - target: {fileID: 7366958056497079494, guid: 07b7a8c82d667874dbe548f3bd7393e5, type: 3}
       propertyPath: onEnd.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetListenerEnable
+      objectReference: {fileID: 0}
+    - target: {fileID: 7366958056497079494, guid: 07b7a8c82d667874dbe548f3bd7393e5, type: 3}
+      propertyPath: onStart.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7366958056497079494, guid: 07b7a8c82d667874dbe548f3bd7393e5, type: 3}
+      propertyPath: onStart.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: SetListenerEnable
       objectReference: {fileID: 0}
     - target: {fileID: 7366958056497079494, guid: 07b7a8c82d667874dbe548f3bd7393e5, type: 3}
@@ -195,7 +215,15 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7366958056497079494, guid: 07b7a8c82d667874dbe548f3bd7393e5, type: 3}
+      propertyPath: onStart.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: VoiceListener, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7366958056497079494, guid: 07b7a8c82d667874dbe548f3bd7393e5, type: 3}
       propertyPath: onEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7366958056497079494, guid: 07b7a8c82d667874dbe548f3bd7393e5, type: 3}
+      propertyPath: onStart.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 7802445245518192229, guid: 07b7a8c82d667874dbe548f3bd7393e5, type: 3}
@@ -795,6 +823,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7366958056497079494, guid: 22f8c5332600fa844a2b353bcb4d864c, type: 3}
+      propertyPath: onStart.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7366958056497079494, guid: 22f8c5332600fa844a2b353bcb4d864c, type: 3}
       propertyPath: onEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 5
       objectReference: {fileID: 0}
@@ -802,6 +834,14 @@ PrefabInstance:
       propertyPath: onEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 870051567}
+    - target: {fileID: 7366958056497079494, guid: 22f8c5332600fa844a2b353bcb4d864c, type: 3}
+      propertyPath: onStart.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7366958056497079494, guid: 22f8c5332600fa844a2b353bcb4d864c, type: 3}
+      propertyPath: onStart.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1018678166}
     - target: {fileID: 7366958056497079494, guid: 22f8c5332600fa844a2b353bcb4d864c, type: 3}
       propertyPath: onEnd.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -811,8 +851,20 @@ PrefabInstance:
       value: GoToScene
       objectReference: {fileID: 0}
     - target: {fileID: 7366958056497079494, guid: 22f8c5332600fa844a2b353bcb4d864c, type: 3}
+      propertyPath: onStart.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7366958056497079494, guid: 22f8c5332600fa844a2b353bcb4d864c, type: 3}
+      propertyPath: onStart.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetListenerEnable
+      objectReference: {fileID: 0}
+    - target: {fileID: 7366958056497079494, guid: 22f8c5332600fa844a2b353bcb4d864c, type: 3}
       propertyPath: onEnd.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: FlashPortal, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7366958056497079494, guid: 22f8c5332600fa844a2b353bcb4d864c, type: 3}
+      propertyPath: onStart.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: VoiceListener, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 7366958056497079494, guid: 22f8c5332600fa844a2b353bcb4d864c, type: 3}
       propertyPath: onEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
@@ -820,6 +872,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7366958056497079494, guid: 22f8c5332600fa844a2b353bcb4d864c, type: 3}
       propertyPath: onEnd.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7366958056497079494, guid: 22f8c5332600fa844a2b353bcb4d864c, type: 3}
+      propertyPath: onStart.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 7802445245518192229, guid: 22f8c5332600fa844a2b353bcb4d864c, type: 3}

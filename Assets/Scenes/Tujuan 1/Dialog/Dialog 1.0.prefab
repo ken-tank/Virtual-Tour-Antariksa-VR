@@ -1,0 +1,425 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1645959279183641961
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1645959279183641966}
+  - component: {fileID: 1645959279183641967}
+  m_Layer: 0
+  m_Name: Dialog 1.0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1645959279183641966
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1645959279183641961}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1645959279183641967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1645959279183641961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61c20c8ec2f1b0f43b3c617f0e94383f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  voiceLine:
+  - delayStart: 3
+    voice: {fileID: 8300000, guid: 85e1b7829c9e7f34790f8763256b0866, type: 3}
+    subtitle: 'Selamat datang para penjelajah angkasa!
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 97335c0620eb77f4984138e28c747361, type: 3}
+    subtitle: 'salah satu destinasi paling menakjubkan dalam alam semesta
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 6c10930d97eb65042ac1204b944a5fd1, type: 3}
+    subtitle: 'Bumi
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: efacf20cd36ca8343abf67b7788f3f62, type: 3}
+    subtitle: 'Mari kita bersama-sama menjelajahi planet ini
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 20e419c69261b444ab2f1aa95ab881a6, type: 3}
+    subtitle: 'dari sudut pandang yang belum pernah Anda bayangkan sebelumnya
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 55418f45bd0036a419215f12620d7163, type: 3}
+    subtitle: 'Saat ini, kita berada di jarak yang sangat jauh dari Bumi
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: ecbb9fac82dbf1c4eae841a01c86e0fc, type: 3}
+    subtitle: 'memandanginya seperti titik cemerlang di antara bintang-bintang yang
+      tak terhitung jumlahnya
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 4ce5b67f302f18d418320e00f0597942, type: 3}
+    subtitle: 'Pertama-tama, mari kita saksikan keagungan
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 5ca9c2559da77a94ea199e593c1b59b3, type: 3}
+    subtitle: 'dan keindahan Bumi ini dari keheningan luar angkasa
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 77bee620bf7952b44b60793de5f7400d, type: 3}
+    subtitle: 'Bumi, planet kita yang disebut juga "The Blue Planet,"
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 34cd6cdc7b9723b4fbbfc8dbbbddc0ae, type: 3}
+    subtitle: 'menarik perhatian dengan kebiruan samudranya yang luas
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 5e945806767771040acc4d961ea0b85f, type: 3}
+    subtitle: 'dan beragam warna hijau dan coklat di daratannya
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 4ec5a9b950a32774eac839d9b2614c92, type: 3}
+    subtitle: 'Ukuran Bumi cukup mengesankan
+
+      dengan diameter sekitar 12.742
+      kilometer
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 90c321f9286187a4f84269027f69f3ab, type: 3}
+    subtitle: 'menjadikannya planet terbesar kelima dalam tata surya kita
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 2cd1a6ab598023b4893eb29a2c0cf9af, type: 3}
+    subtitle: 'Bumi ini adalah rumah bagi berbagai ekosistem yang menakjubkan
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: dc0484792f8b47542b42dc7e26ad8e8e, type: 3}
+    subtitle: 'dari gurun yang tandus hingga hutan hujan yang lebat
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: acf824144d54de64393d837c2fc1781a, type: 3}
+    subtitle: 'Setiap wilayahnya memiliki keindahan dan karakteristik uniknya sendiri
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: f9b47919776d4974489f5ca527902e16, type: 3}
+    subtitle: 'Bumi mengelilingi Matahari selama 365.25 hari
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: b8cbe4741c369084782304e882c7b01f, type: 3}
+    subtitle: 'Ini memberikan kita tahun-tahun penuh petualangan,
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 5318a6f040cde7045875dbf3255c9933, type: 3}
+    subtitle: 'perubahan musim, dan momen-momen istimewa yang hanya bisa kita temukan
+      di planet ini
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 50945d31f0adc46438f9e550c89f5be3, type: 3}
+    subtitle: 'Bumi tidak hanya sebuah benda mati di ruang angkasa
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: b0b92a54c96ceda4d9e41331db00f839, type: 3}
+    subtitle: 'bumi adalah tempat di mana kehidupan berkembang biak dan berevolusi
+      selama miliaran tahun
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 649fbf30ae15f1f42ad9c0226c4ee5a7, type: 3}
+    subtitle: 'jadi mari hargai keindahan dan kerentanan Bumi kita yang rapuh ini
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 6e68b99eef6ce404696b0dbf99500940, type: 3}
+    subtitle: 'Dengan cara tidak membuang sampah sembarangan
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 5a6c902b362bdd7478963773b0cd1ada, type: 3}
+    subtitle: 'kurangi limbah plastik,
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 6aaabcf4caa54e34abedaa32844e9177, type: 3}
+    subtitle: 'dan sering lah melakukan reboisasi terhadap hutan
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 4076507d373b8924ea6358acce1891f2, type: 3}
+    subtitle: 'baiklah, mungkin cukup sampai disini saja kita di bumi
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 1e75bca1c1f101243be9e223c4cb0f40, type: 3}
+    subtitle: 'ayo ke tempat selanjutnya?
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  voiceSource: {fileID: 0}
+  startOnAwake: 1
+  onStart:
+    m_PersistentCalls:
+      m_Calls: []
+  onEnd:
+    m_PersistentCalls:
+      m_Calls: []
