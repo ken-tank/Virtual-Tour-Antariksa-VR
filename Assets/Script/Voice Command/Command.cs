@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using KKSpeech;
 using TMPro;
@@ -28,6 +29,13 @@ public class Command : MonoBehaviour
             "140401", "1 4 0 4 0 1", "14 04 01", "14 4 1", "1441",
             "seratus empat puluh ribu empat ratus satu", "empat belas kosong empat kosong satu",
             "satu empat kosong empat kosong satu"
+        }},
+        {"goto scene", new string[] {
+            "pergi ke tujuan 1", "ke tujuan 1", "tujuan 1", "menuju tujuan 1", "menuju ke tujuan 1",
+            "pergi ke tujuan 2", "ke tujuan 2", "tujuan 2", "menuju tujuan 2", "menuju ke tujuan 2",
+            "pergi ke tujuan 3", "ke tujuan 3", "tujuan 3", "menuju tujuan 3", "menuju ke tujuan 3",
+            "pergi ke tujuan 4", "ke tujuan 4", "tujuan 4", "menuju tujuan 4", "menuju ke tujuan 4",
+            "pergi ke tujuan 5", "ke tujuan 5", "tujuan 5", "menuju tujuan 5", "menuju ke tujuan 5"
         }}
     };
 
@@ -73,6 +81,7 @@ public class Command : MonoBehaviour
         Result(value.ToLower());
         FindObjectOfType<VoiceListener>().ResetUI();
         GameSettings.audioMixer.SetFloat("Voice_Volume", 0);
+        GameSettings.audioMixer.SetFloat("Music_Volume", 0);
     }
 
     void Result(string value) 
@@ -104,6 +113,15 @@ public class Command : MonoBehaviour
             yield return new WaitForSecondsRealtime(delay);
             onSuccess.Invoke();
             BackScene();
+        }
+        else if (commands["goto scene"].Contains(value) && adminMode)
+        {
+            resultText.text = "Menuju Scene ... ";
+            string[] splits = value.Split();
+            string name = $"{splits[^2]} {splits[^1]}";
+            yield return new WaitForSecondsRealtime(delay);
+            onSuccess.Invoke();
+            GoToScene(name);
         }
         else if (commands["admin mode"].Contains(value))
         {
@@ -154,6 +172,13 @@ public class Command : MonoBehaviour
     public void BackScene() 
     {
         FindObjectOfType<FlashPortal>().PreviousScene();
+    }
+
+    public void GoToScene(string name)
+    {
+        TextInfo textInfo = new CultureInfo("id-ID").TextInfo;
+        string title = textInfo.ToTitleCase(name);
+        FindObjectOfType<FlashPortal>().GoToScene(title);
     }
 
     public void OnError(string error)

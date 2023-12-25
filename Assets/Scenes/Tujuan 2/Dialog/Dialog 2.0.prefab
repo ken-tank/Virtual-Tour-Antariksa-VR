@@ -1,0 +1,437 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8334854739631512729
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8334854739631512730}
+  - component: {fileID: 8334854739631512731}
+  m_Layer: 0
+  m_Name: Dialog 2.0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8334854739631512730
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8334854739631512729}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8334854739631512731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8334854739631512729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61c20c8ec2f1b0f43b3c617f0e94383f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  voiceLine:
+  - delayStart: 2
+    voice: {fileID: 8300000, guid: 6ea6ba4581cb921468b747565b9b6f13, type: 3}
+    subtitle: 'Tujuan kita selanjutnya adalah bulan
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 1
+    voice: {fileID: 8300000, guid: e41d584b78dead24eab86b0cffaad237, type: 3}
+    subtitle: 'Bulan adalah  satu-satunya satelit alami Bumi
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: ba6970aa6ae0e0b4e81dae4f12041f2a, type: 3}
+    subtitle: 'dan merupakan satelit terbesar kelima dalam Tata Surya
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: ae1c742f4f771d045b6dbb15f0f7421a, type: 3}
+    subtitle: "dengan diameter 27%,kepadatan 60%, dan massa 1.23% dari Bumi. \r\n"
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 79641951bb8fffc4c89efaf9c4cd2e4d, type: 3}
+    subtitle: 'menjadikan Bulan sebagai satelit alami terbesar di Tata Surya menurut
+      ukuran planet yang diorbitnya
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 75606b0cda60cef44a4262760aed162d, type: 3}
+    subtitle: 'Bulan adalah satelit terpadat kedua setelah Io yang merupakan satelit
+      jupiter
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: c54710c1d1b88ac4291ea34cde3d7180, type: 3}
+    subtitle: 'Bulan berada pada rotasi sinkron dengan Bumi
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 2bd03bab701165548b45e9e3ca041495, type: 3}
+    subtitle: 'yang selalu memperlihatkan sisi yang sama pada Bumi (setiap bulan
+      nya)
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 5e85d2be103d71e4c979487ce83348aa, type: 3}
+    subtitle: 'coba kita percepat waktunya
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: UnityEngine.Playables.PlayableDirector, UnityEngine
+            m_MethodName: Play
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+  - delayStart: 3
+    voice: {fileID: 8300000, guid: 645bef265a4366747ac0666315950806, type: 3}
+    subtitle: 'kerena rotasi bulan dengan rotasi mengorbit nya itu hampir sama
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 99c3533e058297a4382bfc5b263bfbc1, type: 3}
+    subtitle: 'yaitu selama 27, 3 hari
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: dae473fbb9f07d44f8da4de4bc017225, type: 3}
+    subtitle: 'atau lebih tepatnya, 27 hari 7 jam 43 menit 11,5 detik
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: acc46e6cafb006741a6da2cbff13b982, type: 3}
+    subtitle: 'Pengaruh gravitasi Bulan menyebabkan terjadinya pasang surut air laut
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: c7d7a6e76318ccc47ad0711746cf5201, type: 3}
+    subtitle: 'Jarak orbit Bulan dari Bumi saat ini adalah sekitar tiga puluh kali
+      dari diameter Bumi
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 095471b6cf4d4cd4a9699ef28c22838c, type: 3}
+    subtitle: 'Jarak orbit Bulan dari Bumi saat ini adalah sekitar tiga puluh kali
+      dari diameter Bumi
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 4e532ef5234d59e47a60e5d0c103e71f, type: 3}
+    subtitle: 'Jarak orbit Bulan dari Bumi saat ini adalah sekitar tiga puluh kali
+      dari diameter Bumi
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 628b36e84489018458825564e0461d50, type: 3}
+    subtitle: 'maka jika kita lihat bumi dr jarak bulan (lihat Kebelakang), akan
+      terlihat seperti ini
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: UnityEngine.Playables.PlayableDirector, UnityEngine
+            m_MethodName: Play
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+  - delayStart: 3
+    voice: {fileID: 8300000, guid: ef90d42e77cc2b24c95dffbd4e94303e, type: 3}
+    subtitle: 'sangat jauh kan
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 524a78a5958f6a34e9c27469f6451d94, type: 3}
+    subtitle: 'bahkan sampai tidak terlihat, itu karena
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: a3667d760f516e6479a082a83f2d9677, type: 3}
+    subtitle: 'keterbatasan teknologi saat ini, yang membuat kita tidak dapat men
+      simulasikan dr jarak sejauh itu
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: dcc1a7b16b4873d49831051464e9dd23, type: 3}
+    subtitle: 'dr jarak itu, jika kita melihatnya dari bumi
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 684c8422f729a4d40abdf6b76ff291a4, type: 3}
+    subtitle: 'sebenarnya ukuran bulan jadi akan sama besar ukuran matahari
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 73f3a9d158411d440878ae8f02d54609, type: 3}
+    subtitle: 'sehingga itulah yang bisa menyebabkan adanya gerhana matahari
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 23fec22c459c0b1499a4518c6e8290fd, type: 3}
+    subtitle: 'serta itu juga yang dapat menyebabkan gerhana bulan
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: e33d79520db5a324e889478832a1f3e6, type: 3}
+    subtitle: 'karena sinar matahari tertutup oleh bayangan bumi
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 5ca5dd0f9a670d44ba1f4cdc64e93617, type: 3}
+    subtitle: 'mungkin cukup di sini informasi yang aku tahu saat ini
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 45210e00634fa7740b48bc8ac6cf28a9, type: 3}
+    subtitle: 'ingin ketempat selanjutnya, atau ingin melihat lihat dulu keidahan
+      bulan?
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  voiceSource: {fileID: 0}
+  startOnAwake: 1
+  onStart:
+    m_PersistentCalls:
+      m_Calls: []
+  onEnd:
+    m_PersistentCalls:
+      m_Calls: []

@@ -55,8 +55,13 @@ public class VoiceListener : MonoBehaviour
             StopCoroutine(coroutine);
             coroutine = null;
             Debug.Log("Cancle Listening");
-            if (!SpeechRecognizer.IsRecording()) uIInfo.Enable(false);
+            if (!SpeechRecognizer.IsRecording()) 
+            {
+                uIInfo.Enable(false);
+            }
             SpeechRecognizer.StopIfRecording();
+            GameSettings.audioMixer.SetFloat("Voice_Volume", 0);
+            GameSettings.audioMixer.SetFloat("Music_Volume", 0);
         }
     }
 
@@ -77,6 +82,7 @@ public class VoiceListener : MonoBehaviour
         }
         uIInfo.Loading(1);
         GameSettings.audioMixer.SetFloat("Voice_Volume", -80);
+        GameSettings.audioMixer.SetFloat("Music_Volume", -70);
         SpeechRecognizer.StartRecording(true);
         Debug.Log("Listening...");
         uIInfo.SetTitle("Mendengarkan...");
@@ -90,6 +96,7 @@ public class VoiceListener : MonoBehaviour
         uIInfo.Loading(0);
         uIInfo.SetTitle("");
         GameSettings.audioMixer.SetFloat("Voice_Volume", 0);
+        GameSettings.audioMixer.SetFloat("Music_Volume", 0);
     }
 
     public void ResetOnStart() 

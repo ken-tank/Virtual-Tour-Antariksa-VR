@@ -123,169 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &133473487
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 577844705249017668, guid: b5a812f70e115c54daab698536a4cdf1, type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 577844705249017668, guid: b5a812f70e115c54daab698536a4cdf1, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.62
-      objectReference: {fileID: 0}
-    - target: {fileID: 577844705249017668, guid: b5a812f70e115c54daab698536a4cdf1, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.62
-      objectReference: {fileID: 0}
-    - target: {fileID: 577844705249017668, guid: b5a812f70e115c54daab698536a4cdf1, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.62
-      objectReference: {fileID: 0}
-    - target: {fileID: 577844705249017668, guid: b5a812f70e115c54daab698536a4cdf1, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 85.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 577844705249017668, guid: b5a812f70e115c54daab698536a4cdf1, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 29.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 577844705249017668, guid: b5a812f70e115c54daab698536a4cdf1, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -77.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 577844705249017668, guid: b5a812f70e115c54daab698536a4cdf1, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 577844705249017668, guid: b5a812f70e115c54daab698536a4cdf1, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 577844705249017668, guid: b5a812f70e115c54daab698536a4cdf1, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 577844705249017668, guid: b5a812f70e115c54daab698536a4cdf1, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 577844705249017668, guid: b5a812f70e115c54daab698536a4cdf1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 577844705249017668, guid: b5a812f70e115c54daab698536a4cdf1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 577844705249017668, guid: b5a812f70e115c54daab698536a4cdf1, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 577844705249017672, guid: b5a812f70e115c54daab698536a4cdf1, type: 3}
-      propertyPath: m_Name
-      value: Flare
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: b5a812f70e115c54daab698536a4cdf1, type: 3}
---- !u!1 &142687851
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 142687853}
-  - component: {fileID: 142687852}
-  m_Layer: 0
-  m_Name: Directional Light
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!108 &142687852
-Light:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 142687851}
-  m_Enabled: 1
-  serializedVersion: 10
-  m_Type: 1
-  m_Shape: 0
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 2
-  m_Range: 10
-  m_SpotAngle: 30
-  m_InnerSpotAngle: 21.80208
-  m_CookieSize: 10
-  m_Shadows:
-    m_Type: 2
-    m_Resolution: -1
-    m_CustomResolution: -1
-    m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
-    m_CullingMatrixOverride:
-      e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    m_UseCullingMatrixOverride: 0
-  m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
-  m_Flare: {fileID: 0}
-  m_RenderMode: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingLayerMask: 1
-  m_Lightmapping: 4
-  m_LightShadowCasterMode: 0
-  m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 0
-  m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
-  m_UseBoundingSphereOverride: 0
-  m_UseViewFrustumForShadowCasterCull: 1
-  m_ShadowRadius: 0
-  m_ShadowAngle: 0
---- !u!4 &142687853
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 142687851}
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &254109909
 GameObject:
   m_ObjectHideFlags: 0
@@ -317,7 +154,7 @@ Transform:
   m_Children:
   - {fileID: 607136212}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &254109911
 MonoBehaviour:
@@ -340,6 +177,67 @@ MonoBehaviour:
     hour: 0
     minutes: 0
     second: 0
+--- !u!1001 &572599626
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5480120690557318249, guid: 7a2a80aa85c802e4c8de3b9a7aa2b222, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5480120690557318249, guid: 7a2a80aa85c802e4c8de3b9a7aa2b222, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5480120690557318249, guid: 7a2a80aa85c802e4c8de3b9a7aa2b222, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5480120690557318249, guid: 7a2a80aa85c802e4c8de3b9a7aa2b222, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5480120690557318249, guid: 7a2a80aa85c802e4c8de3b9a7aa2b222, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.82787764
+      objectReference: {fileID: 0}
+    - target: {fileID: 5480120690557318249, guid: 7a2a80aa85c802e4c8de3b9a7aa2b222, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.13705425
+      objectReference: {fileID: 0}
+    - target: {fileID: 5480120690557318249, guid: 7a2a80aa85c802e4c8de3b9a7aa2b222, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.53660345
+      objectReference: {fileID: 0}
+    - target: {fileID: 5480120690557318249, guid: 7a2a80aa85c802e4c8de3b9a7aa2b222, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.088834114
+      objectReference: {fileID: 0}
+    - target: {fileID: 5480120690557318249, guid: 7a2a80aa85c802e4c8de3b9a7aa2b222, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 18.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5480120690557318249, guid: 7a2a80aa85c802e4c8de3b9a7aa2b222, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -65.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5480120690557318249, guid: 7a2a80aa85c802e4c8de3b9a7aa2b222, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5480120690557318262, guid: 7a2a80aa85c802e4c8de3b9a7aa2b222, type: 3}
+      propertyPath: m_Intensity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5480120690557318263, guid: 7a2a80aa85c802e4c8de3b9a7aa2b222, type: 3}
+      propertyPath: m_Name
+      value: Directional Light
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7a2a80aa85c802e4c8de3b9a7aa2b222, type: 3}
 --- !u!1001 &607136211
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -414,6 +312,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4035144665211143498, guid: 004095820e19a3d4c99d1138b0f6ce91, type: 3}
   m_PrefabInstance: {fileID: 607136211}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1118384539 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4163198839531411269, guid: e9ef5cf34e46dd44696f3c9f4defa218, type: 3}
+  m_PrefabInstance: {fileID: 1277658037}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1247587914
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -421,6 +324,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1236014802770630940, guid: aaa8dfa3af4ef234d997247342e1e4e9, type: 3}
+      propertyPath: musicClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 4994e3485988c0847919bc1189d66712, type: 3}
+    - target: {fileID: 1236014802770630940, guid: aaa8dfa3af4ef234d997247342e1e4e9, type: 3}
+      propertyPath: musicVolume
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 6682121862295576920, guid: aaa8dfa3af4ef234d997247342e1e4e9, type: 3}
       propertyPath: m_Name
       value: Game Manager
@@ -545,7 +456,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3751331623229132543, guid: 3ab7b34a1cb51ad478c4c41d6e2d8ea6, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3751331623229132543, guid: 3ab7b34a1cb51ad478c4c41d6e2d8ea6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -589,3 +500,423 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ab7b34a1cb51ad478c4c41d6e2d8ea6, type: 3}
+--- !u!1 &2002076292
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2002076293}
+  - component: {fileID: 2002076294}
+  m_Layer: 0
+  m_Name: Dialog 3.0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2002076293
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2002076292}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1118384539}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2002076294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2002076292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61c20c8ec2f1b0f43b3c617f0e94383f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  voiceLine:
+  - delayStart: 2
+    voice: {fileID: 8300000, guid: 2c300974569a46641b6f025604c9ab10, type: 3}
+    subtitle: 'Selamat datang di venus
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 8e678cf2d00ae26478bc51ee67fc077b, type: 3}
+    subtitle: 'Venus adalah planet terdekat kedua dari Matahari setelah Merkurius
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: b6bfb130951ae004bbff11c3315110d7, type: 3}
+    subtitle: 'Planet ini mengorbit Matahari selama 224,7 hari
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: f5f6ffeb43d489949a75548101bee659, type: 3}
+    subtitle: 'pernah dengar nama bintang kejora?
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 4a77322afe0d2b348bd6d723293bea07, type: 3}
+    subtitle: 'itu sebenarnya adalah planet venus tersebut
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: d89a8b14754082b4cbd43bab4cf24200, type: 3}
+    subtitle: 'kerena terangnya planet tersebut, kita salah mengartikannya sebagai
+      bintangk
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 0f6e74b6fbc15fc499d265d98c1e9721, type: 3}
+    subtitle: 'Kecerahan maksimal planet ini dapat dilihat segera sebelum
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 6befe3a2b859cb648bcbb65531fceae9, type: 3}
+    subtitle: 'matahari terbit atau setelah matahari terbenam
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 23164c9e9770eb541b520b22ea189123, type: 3}
+    subtitle: 'sehingga disebut Bintang Fajar atau Bintang Senja
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: d555433ef1fd3a9488d5cce4a9e3c8f2, type: 3}
+    subtitle: "Venus adalah planet  yang  disebut \u201Cplanet saudara\u201D Bumi\r\n"
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 4ebf67034dd64d84c837d3c414a20b85, type: 3}
+    subtitle: 'karena ukuran, gravitasi, dan komposisi yang mirip
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: e95925e7055936d4f8e45f31e44f19e3, type: 3}
+    subtitle: 'Namun, dalam hal lain planet ini sangat berbeda dari Bumi
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 2752770d113892b4e9e130ac581d1cb7, type: 3}
+    subtitle: 'Planet ini memiliki atmosfer yang sangat padat
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: f747107fc626e944087e941648838b12, type: 3}
+    subtitle: 'yang terdiri dari 96% karbon dioksida, yang menyebabkan efek rumah
+      kaca yang parah
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: f093b76832d1faf469e5b4780def4c7a, type: 3}
+    subtitle: 'serta ditambah tekanan atmosfer yang 71 kali Bumi
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 95669f83708326c419db5d9414f2f81b, type: 3}
+    subtitle: 'sehingga membuat suhu permukaan pelanet ini, sangatlah panas
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: be332d612cc8f304687d652dc835f0fa, type: 3}
+    subtitle: "Dengan rata-rata suhu permukaan sebesar 735\_Kelfin atau 462 derajat
+      celcius\n"
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 9a0b991ad12488d4d95e2cddf6537348, type: 3}
+    subtitle: 'Venus juga diselimuti oleh lapisan buram yang terdiri dari awan asam
+      sulfat yang sangat reflektif
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: a54c41f002c5fe44fb6b2613640a0f93, type: 3}
+    subtitle: 'sehingga permukaannya tidak dapat dilihat dari luar angkasa
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 337d41e178fc8744a89ffc863711aae9, type: 3}
+    subtitle: 'venus mungkin pernah memiliki samudra, namun samudra
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 6e819ec4cb8d0134981cbcda3dc05519, type: 3}
+    subtitle: ' tersebut menguap karena peningkatan suhu yang disebabkan oleh efek
+      rumah kaca berketerusan
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: f49d694877d9b0f4ea3e281e5de05771, type: 3}
+    subtitle: 'ketiadaan medan magnet internal di Venus membuat
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: f0f7546a269b89d48b661b9cf89eb381, type: 3}
+    subtitle: 'Sebagian besar air mungkin telah terfotodisosiasi, dan angin matahari
+      telah membuat hidrogen bebas
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 310bac3ee1f45714ea49f62573ad2a12, type: 3}
+    subtitle: 'mengalami pelepasan ke luar angkasa
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: aa1dccb1fc22a0541920b046ae5b61f9, type: 3}
+    subtitle: 'venus juga adalah satu satunya planet yang berotasi terbalik
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 6e6f7167b79d0d14fa05888af06652f0, type: 3}
+    subtitle: 'dan rotasi dari planet ini sangatlah lama, dan mungkin bahkan tidak
+      berputar sama sekali
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 863997f5a73971943900fdd0cba5947f, type: 3}
+    subtitle: 'venus juga mengelilingi matahari selama 243 hari
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 5ca5dd0f9a670d44ba1f4cdc64e93617, type: 3}
+    subtitle: 'mungkin cukup di sini informasi yang aku tahu saat ini
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  voiceSource: {fileID: 0}
+  startOnAwake: 1
+  onStart:
+    m_PersistentCalls:
+      m_Calls: []
+  onEnd:
+    m_PersistentCalls:
+      m_Calls: []

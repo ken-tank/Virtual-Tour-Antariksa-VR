@@ -993,6 +993,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1236014802770630940, guid: aaa8dfa3af4ef234d997247342e1e4e9, type: 3}
+      propertyPath: musicClip
+      value: 
+      objectReference: {fileID: 8300000, guid: d4f192e998e1fd948915a9d7897fb004, type: 3}
     - target: {fileID: 6682121862295576920, guid: aaa8dfa3af4ef234d997247342e1e4e9, type: 3}
       propertyPath: m_Name
       value: Game Manager
