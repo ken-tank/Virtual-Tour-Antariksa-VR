@@ -15,6 +15,7 @@ public class Planet : MonoBehaviour
         [Tooltip("Rotate In Radiant per Second")]
         public float rotationSpeed;
         public Planet orbit;
+        public Transform orbitLine;
         public float orbitDistance;
         public float orbitScale;
         public float orbitalSpeed;
@@ -62,7 +63,9 @@ public class Planet : MonoBehaviour
                 }
                 else
                 {
-                    transform.localPosition = Vector3.forward * ((properties.orbitDistance / properties.orbitScale) / space.spaceScale);
+                    float distance = (properties.orbitDistance / properties.orbitScale) / space.spaceScale;
+                    transform.localPosition = Vector3.forward * distance;
+                    if (properties.orbitLine) properties.orbitLine.localScale = Vector3.one * distance/5;
                     orbitPoint.localEulerAngles = new Vector3(orbitPoint.localEulerAngles.x, properties.currentOrbitAngle, orbitPoint.localEulerAngles.z);
                     Gizmos.color = new Color(1, 0, 0, 0.5f);
                     Gizmos.DrawLine(orbitPoint.position, transform.position);
@@ -77,6 +80,7 @@ public class Planet : MonoBehaviour
                     orbitPoint = null;
                 }
             }
+            if (properties.orbitLine) properties.orbitLine.gameObject.SetActive(properties.orbit);
         }
     }
 
@@ -85,7 +89,7 @@ public class Planet : MonoBehaviour
         if (attribute.objectPlanet)
         {
             properties.currentPlanetAngle = attribute.objectPlanet.localEulerAngles.y;
-            properties.currentPlanetAngle -= properties.rotationSpeed * (Time.deltaTime * space.spaceTime);
+            properties.currentPlanetAngle -= (properties.rotationSpeed - (properties.orbit == null ? 0 : properties.orbitalSpeed)) * (Time.deltaTime * space.spaceTime);
             attribute.objectPlanet.localEulerAngles = Vector3.up * properties.currentPlanetAngle;
             attribute.objectPlanet.localScale = Vector3.one * (properties.radius / space.spaceScale);
 
@@ -102,7 +106,9 @@ public class Planet : MonoBehaviour
                 }
                 else
                 {
-                    transform.localPosition = Vector3.forward * ((properties.orbitDistance / properties.orbitScale) / space.spaceScale);
+                    float distance = (properties.orbitDistance / properties.orbitScale) / space.spaceScale;
+                    transform.localPosition = Vector3.forward * distance;
+                    if (properties.orbitLine) properties.orbitLine.localScale = Vector3.one * distance/5;
                     properties.currentOrbitAngle = orbitPoint.localEulerAngles.y;
                     properties.currentOrbitAngle -= properties.orbitalSpeed * (Time.deltaTime * space.spaceTime);
                     orbitPoint.localEulerAngles = new Vector3(orbitPoint.localEulerAngles.x, properties.currentOrbitAngle, orbitPoint.localEulerAngles.z);
@@ -117,6 +123,7 @@ public class Planet : MonoBehaviour
                     orbitPoint = null;
                 }
             }
+            if (properties.orbitLine) properties.orbitLine.gameObject.SetActive(properties.orbit);
         }
     }
 }

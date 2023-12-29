@@ -15,7 +15,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 16
   m_IsActive: 1
 --- !u!4 &5315953309981959331
 Transform:
@@ -50,9 +50,11 @@ MonoBehaviour:
   properties:
     name: Matahari
     radius: 696342
-    rotationSpeed: 0.00015432
+    rotationSpeed: 0.00016667
     orbit: {fileID: 0}
+    orbitLine: {fileID: 0}
     orbitDistance: 0
+    orbitScale: 0
     orbitalSpeed: 0
     currentPlanetAngle: 0
     currentOrbitAngle: 0
@@ -67,21 +69,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sun
       objectReference: {fileID: 0}
+    - target: {fileID: 888440009926096833, guid: 11b4b8223da620c489bf056720f178b4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 888440009926096838, guid: 11b4b8223da620c489bf056720f178b4, type: 3}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 888440009926096838, guid: 11b4b8223da620c489bf056720f178b4, type: 3}
       propertyPath: m_LocalScale.x
-      value: 696.342
+      value: 6.96342
       objectReference: {fileID: 0}
     - target: {fileID: 888440009926096838, guid: 11b4b8223da620c489bf056720f178b4, type: 3}
       propertyPath: m_LocalScale.y
-      value: 696.342
+      value: 6.96342
       objectReference: {fileID: 0}
     - target: {fileID: 888440009926096838, guid: 11b4b8223da620c489bf056720f178b4, type: 3}
       propertyPath: m_LocalScale.z
-      value: 696.342
+      value: 6.96342
       objectReference: {fileID: 0}
     - target: {fileID: 888440009926096838, guid: 11b4b8223da620c489bf056720f178b4, type: 3}
       propertyPath: m_LocalPosition.x

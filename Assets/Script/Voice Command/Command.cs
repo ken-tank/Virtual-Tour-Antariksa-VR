@@ -35,7 +35,13 @@ public class Command : MonoBehaviour
             "pergi ke tujuan 2", "ke tujuan 2", "tujuan 2", "menuju tujuan 2", "menuju ke tujuan 2",
             "pergi ke tujuan 3", "ke tujuan 3", "tujuan 3", "menuju tujuan 3", "menuju ke tujuan 3",
             "pergi ke tujuan 4", "ke tujuan 4", "tujuan 4", "menuju tujuan 4", "menuju ke tujuan 4",
-            "pergi ke tujuan 5", "ke tujuan 5", "tujuan 5", "menuju tujuan 5", "menuju ke tujuan 5"
+            "pergi ke tujuan 5", "ke tujuan 5", "tujuan 5", "menuju tujuan 5", "menuju ke tujuan 5",
+            "pergi ke tujuan 6", "ke tujuan 6", "tujuan 6", "menuju tujuan 6", "menuju ke tujuan 6",
+            "pergi ke tujuan 7", "ke tujuan 7", "tujuan 7", "menuju tujuan 7", "menuju ke tujuan 7",
+            "pergi ke tujuan 8", "ke tujuan 8", "tujuan 8", "menuju tujuan 8", "menuju ke tujuan 8",
+            "pergi ke tujuan 9", "ke tujuan 9", "tujuan 9", "menuju tujuan 9", "menuju ke tujuan 9",
+            "pergi ke tujuan 10", "ke tujuan 10", "tujuan 10", "menuju tujuan 10", "menuju ke tujuan 10",
+            "pergi ke tujuan 11", "ke tujuan 11", "tujuan 11", "menuju tujuan 11", "menuju ke tujuan 11"
         }}
     };
 

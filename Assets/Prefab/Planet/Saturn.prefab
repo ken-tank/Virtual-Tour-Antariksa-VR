@@ -15,7 +15,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 16
   m_IsActive: 1
 --- !u!4 &49224039264448193
 Transform:
@@ -52,7 +52,9 @@ MonoBehaviour:
     radius: 59871
     rotationSpeed: 0.0093
     orbit: {fileID: 0}
+    orbitLine: {fileID: 0}
     orbitDistance: 0
+    orbitScale: 0
     orbitalSpeed: 0
     currentPlanetAngle: 0
     currentOrbitAngle: 0
@@ -69,15 +71,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 88513128001855051, guid: 72147ca0fd500c6458b1d81b320e64ad, type: 3}
       propertyPath: m_LocalScale.x
-      value: 59.871
+      value: 0.59871
       objectReference: {fileID: 0}
     - target: {fileID: 88513128001855051, guid: 72147ca0fd500c6458b1d81b320e64ad, type: 3}
       propertyPath: m_LocalScale.y
-      value: 59.871
+      value: 0.59871
       objectReference: {fileID: 0}
     - target: {fileID: 88513128001855051, guid: 72147ca0fd500c6458b1d81b320e64ad, type: 3}
       propertyPath: m_LocalScale.z
-      value: 59.871
+      value: 0.59871
       objectReference: {fileID: 0}
     - target: {fileID: 88513128001855051, guid: 72147ca0fd500c6458b1d81b320e64ad, type: 3}
       propertyPath: m_LocalPosition.x
@@ -122,6 +124,18 @@ PrefabInstance:
     - target: {fileID: 1654929622348014541, guid: 72147ca0fd500c6458b1d81b320e64ad, type: 3}
       propertyPath: m_Name
       value: Saturn
+      objectReference: {fileID: 0}
+    - target: {fileID: 1654929622348014541, guid: 72147ca0fd500c6458b1d81b320e64ad, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 2010335766213727236, guid: 72147ca0fd500c6458b1d81b320e64ad, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 2995053243913102246, guid: 72147ca0fd500c6458b1d81b320e64ad, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 16
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72147ca0fd500c6458b1d81b320e64ad, type: 3}

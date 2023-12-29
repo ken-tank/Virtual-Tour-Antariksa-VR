@@ -15,7 +15,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 16
   m_IsActive: 1
 --- !u!4 &2344599774225419461
 Transform:
@@ -52,6 +52,7 @@ MonoBehaviour:
     radius: 6371.01
     rotationSpeed: 0.00417
     orbit: {fileID: 0}
+    orbitLine: {fileID: 0}
     orbitDistance: 0
     orbitScale: 1
     orbitalSpeed: 0
@@ -64,6 +65,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2344599774225419461}
     m_Modifications:
+    - target: {fileID: 5672140223478729508, guid: cf4d1ab9b2f34d24b906b210666f8b95, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 5971075380520783922, guid: cf4d1ab9b2f34d24b906b210666f8b95, type: 3}
       propertyPath: m_CastShadows
       value: 0
@@ -72,21 +77,25 @@ PrefabInstance:
       propertyPath: m_ReceiveShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5971075380520783925, guid: cf4d1ab9b2f34d24b906b210666f8b95, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 5971075380535083762, guid: cf4d1ab9b2f34d24b906b210666f8b95, type: 3}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5971075380535083762, guid: cf4d1ab9b2f34d24b906b210666f8b95, type: 3}
       propertyPath: m_LocalScale.x
-      value: 6.37101
+      value: 0.0637101
       objectReference: {fileID: 0}
     - target: {fileID: 5971075380535083762, guid: cf4d1ab9b2f34d24b906b210666f8b95, type: 3}
       propertyPath: m_LocalScale.y
-      value: 6.37101
+      value: 0.0637101
       objectReference: {fileID: 0}
     - target: {fileID: 5971075380535083762, guid: cf4d1ab9b2f34d24b906b210666f8b95, type: 3}
       propertyPath: m_LocalScale.z
-      value: 6.37101
+      value: 0.0637101
       objectReference: {fileID: 0}
     - target: {fileID: 5971075380535083762, guid: cf4d1ab9b2f34d24b906b210666f8b95, type: 3}
       propertyPath: m_LocalPosition.x
@@ -131,6 +140,14 @@ PrefabInstance:
     - target: {fileID: 5971075380535083765, guid: cf4d1ab9b2f34d24b906b210666f8b95, type: 3}
       propertyPath: m_Name
       value: Earth
+      objectReference: {fileID: 0}
+    - target: {fileID: 5971075380535083765, guid: cf4d1ab9b2f34d24b906b210666f8b95, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 5971075381727712611, guid: cf4d1ab9b2f34d24b906b210666f8b95, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 7818010505970989429, guid: cf4d1ab9b2f34d24b906b210666f8b95, type: 3}
       propertyPath: m_CastShadows

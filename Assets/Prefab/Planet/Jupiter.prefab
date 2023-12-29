@@ -15,7 +15,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 16
   m_IsActive: 1
 --- !u!4 &5719957840907311757
 Transform:
@@ -52,7 +52,9 @@ MonoBehaviour:
     radius: 71492
     rotationSpeed: 0.01008
     orbit: {fileID: 0}
+    orbitLine: {fileID: 0}
     orbitDistance: 0
+    orbitScale: 0
     orbitalSpeed: 0
     currentPlanetAngle: 0
     currentOrbitAngle: 0
@@ -69,15 +71,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9087194080420900345, guid: 356927b5622a4c64db404d14013ccdf8, type: 3}
       propertyPath: m_LocalScale.x
-      value: 71.492
+      value: 0.71492
       objectReference: {fileID: 0}
     - target: {fileID: 9087194080420900345, guid: 356927b5622a4c64db404d14013ccdf8, type: 3}
       propertyPath: m_LocalScale.y
-      value: 71.492
+      value: 0.71492
       objectReference: {fileID: 0}
     - target: {fileID: 9087194080420900345, guid: 356927b5622a4c64db404d14013ccdf8, type: 3}
       propertyPath: m_LocalScale.z
-      value: 71.492
+      value: 0.71492
       objectReference: {fileID: 0}
     - target: {fileID: 9087194080420900345, guid: 356927b5622a4c64db404d14013ccdf8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -122,6 +124,10 @@ PrefabInstance:
     - target: {fileID: 9087194080420900346, guid: 356927b5622a4c64db404d14013ccdf8, type: 3}
       propertyPath: m_Name
       value: Jupiter
+      objectReference: {fileID: 0}
+    - target: {fileID: 9087194080420900346, guid: 356927b5622a4c64db404d14013ccdf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 16
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 356927b5622a4c64db404d14013ccdf8, type: 3}

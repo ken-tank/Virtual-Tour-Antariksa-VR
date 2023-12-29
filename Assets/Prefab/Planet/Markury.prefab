@@ -15,7 +15,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 16
   m_IsActive: 1
 --- !u!4 &4286376778268521226
 Transform:
@@ -52,7 +52,9 @@ MonoBehaviour:
     radius: 2439.7
     rotationSpeed: 0.0000706
     orbit: {fileID: 0}
+    orbitLine: {fileID: 0}
     orbitDistance: 0
+    orbitScale: 0
     orbitalSpeed: 0
     currentPlanetAngle: 0
     currentOrbitAngle: 0
@@ -69,15 +71,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4290095256118854965, guid: 0035d95e15fc0f24e834cebede70ff1a, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2.4397
+      value: 0.024396999
       objectReference: {fileID: 0}
     - target: {fileID: 4290095256118854965, guid: 0035d95e15fc0f24e834cebede70ff1a, type: 3}
       propertyPath: m_LocalScale.y
-      value: 2.4397
+      value: 0.024396999
       objectReference: {fileID: 0}
     - target: {fileID: 4290095256118854965, guid: 0035d95e15fc0f24e834cebede70ff1a, type: 3}
       propertyPath: m_LocalScale.z
-      value: 2.4397
+      value: 0.024396999
       objectReference: {fileID: 0}
     - target: {fileID: 4290095256118854965, guid: 0035d95e15fc0f24e834cebede70ff1a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -122,6 +124,10 @@ PrefabInstance:
     - target: {fileID: 4290095256118854966, guid: 0035d95e15fc0f24e834cebede70ff1a, type: 3}
       propertyPath: m_Name
       value: Mercury
+      objectReference: {fileID: 0}
+    - target: {fileID: 4290095256118854966, guid: 0035d95e15fc0f24e834cebede70ff1a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 16
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0035d95e15fc0f24e834cebede70ff1a, type: 3}

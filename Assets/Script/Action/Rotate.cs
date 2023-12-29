@@ -14,7 +14,7 @@ public class Rotate : MonoBehaviour
         }
         else
         {
-            transform.eulerAngles += speed * multiply * Time.deltaTime;
+            transform.Rotate(speed, multiply * Time.deltaTime, UnityEngine.Space.World);
         }
     }
 }

@@ -15,7 +15,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 16
   m_IsActive: 1
 --- !u!4 &7904622933346702041
 Transform:
@@ -52,7 +52,9 @@ MonoBehaviour:
     radius: 25362
     rotationSpeed: -0.00579
     orbit: {fileID: 0}
+    orbitLine: {fileID: 0}
     orbitDistance: 0
+    orbitScale: 0
     orbitalSpeed: 0
     currentPlanetAngle: 0
     currentOrbitAngle: 0
@@ -67,21 +69,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Uranus
       objectReference: {fileID: 0}
+    - target: {fileID: 7576506370810748051, guid: e3c1a939476cbdc4fa1d8fde8c53555d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 7576506370810748062, guid: e3c1a939476cbdc4fa1d8fde8c53555d, type: 3}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7576506370810748062, guid: e3c1a939476cbdc4fa1d8fde8c53555d, type: 3}
       propertyPath: m_LocalScale.x
-      value: 25.362
+      value: 0.25362
       objectReference: {fileID: 0}
     - target: {fileID: 7576506370810748062, guid: e3c1a939476cbdc4fa1d8fde8c53555d, type: 3}
       propertyPath: m_LocalScale.y
-      value: 25.362
+      value: 0.25362
       objectReference: {fileID: 0}
     - target: {fileID: 7576506370810748062, guid: e3c1a939476cbdc4fa1d8fde8c53555d, type: 3}
       propertyPath: m_LocalScale.z
-      value: 25.362
+      value: 0.25362
       objectReference: {fileID: 0}
     - target: {fileID: 7576506370810748062, guid: e3c1a939476cbdc4fa1d8fde8c53555d, type: 3}
       propertyPath: m_LocalPosition.x

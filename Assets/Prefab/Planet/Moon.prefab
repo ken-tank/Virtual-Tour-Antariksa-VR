@@ -15,7 +15,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 16
   m_IsActive: 1
 --- !u!4 &147544524267761315
 Transform:
@@ -53,6 +53,7 @@ MonoBehaviour:
     rotationSpeed: 0.00015432
     orbit: {fileID: 0}
     orbitDistance: 0
+    orbitScale: 0
     orbitalSpeed: 0
     currentPlanetAngle: 0
     currentOrbitAngle: 0
@@ -66,6 +67,10 @@ PrefabInstance:
     - target: {fileID: 4295814225007584736, guid: 42bebfc6d329b4b40bb05fa20e7eaccf, type: 3}
       propertyPath: m_Name
       value: Moon
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295814225007584736, guid: 42bebfc6d329b4b40bb05fa20e7eaccf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 6668056477568427000, guid: 42bebfc6d329b4b40bb05fa20e7eaccf, type: 3}
       propertyPath: m_RootOrder
