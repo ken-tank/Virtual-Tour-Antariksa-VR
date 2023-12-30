@@ -177,6 +177,331 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &333719369
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 333719370}
+  - component: {fileID: 333719371}
+  m_Layer: 0
+  m_Name: Dialog 1.0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &333719370
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 333719369}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1946609981}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &333719371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 333719369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61c20c8ec2f1b0f43b3c617f0e94383f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  voiceLine:
+  - delayStart: 2
+    voice: {fileID: 8300000, guid: c6554aafbc6128d489de197e3c089c13, type: 3}
+    subtitle: 'Selamat datang di planet terkecil sekaligus terdekat dari matahari
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: b4dfb60fb80121d409c88c24add0a8bf, type: 3}
+    subtitle: 'merkurius
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: da7fc225d6b15cb44aa613d070e47015, type: 3}
+    subtitle: 'planet ini merupakan planet dengan periode revolusi
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 7c9de790c09789f47b57c7bb3bd4bcd8, type: 3}
+    subtitle: 'terpendek dari semua planet di tata surya
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 96f7a4d8975ffaa41a654eceb2edcadf, type: 3}
+    subtitle: 'yakni 87,79 hari untuk menyelesaikan satu putaran mengelilingi matahari
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 0130c9ce7cf5d2846a2a2aa1e2160f38, type: 3}
+    subtitle: 'Tapi satu hari di sana sangat lama lho
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 6857f499c1648f842bb7ed34c6fc8582, type: 3}
+    subtitle: 'satu hari di planet merkurius itu setara dengan 176 hari di bumi
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: dcb33a70fa64a85488482064b7259669, type: 3}
+    subtitle: 'merkurius juga memiliki ukuran dengan radius 2439,7 Km
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 1deeee7495728a045b365a320a565402, type: 3}
+    subtitle: 'atau sekitar 1/3 ukuran bumi
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 496a1caf1ce23254b98343e598af9195, type: 3}
+    subtitle: 'Jarak merkurius ke matahari adalah 57 juta km
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 72b581c4810e68241b2e87a9cb2f0a13, type: 3}
+    subtitle: 'dan jarak Merkurius dengan Bumi sejauh 92 juta km
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: af07031b3d9a65045883ab8e81cf0b00, type: 3}
+    subtitle: 'Permukaan Merkurius penuh akan kawah dan memiliki wujud yang serupa
+      dengan Bulan
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: b8a5380f4530229448ff481e64627f3d, type: 3}
+    subtitle: 'hal ini menandakan bahwa proses geologis pada permukaannya telah berhenti
+      sejak miliaran tahun yang lalu
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 746bba4261fe97449942142b4bf3031c, type: 3}
+    subtitle: "Karena hampir tidak memiliki atmosfer untuk menahan panas, \r\n"
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 5f0e99f3d8d62e04ebe7f89e96262389, type: 3}
+    subtitle: 'Merkurius memiliki suhu permukaan yang sangat beragam setiap harinya
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 0bcb1bfd0c94dd24f890c6f7a9f8bf25, type: 3}
+    subtitle: 'suhu di permukaan Merkurius bisa mencapai 427 derajat Celcius pada
+      siang hari
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: cebbeb6d39da82b4596abb5aa9c37bee, type: 3}
+    subtitle: 'tetapi bisa turun hingga -179 derajat Celcius pada malam hari.
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 25117831d83e82344b3131f08ecb1108, type: 3}
+    subtitle: 'Merkurius tidak memiliki satu pun satelit alami yang diketahui
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 9003590a55f318f45b535f2aa19eee7e, type: 3}
+    subtitle: 'dan juga Merkurius merupakan planet yang mengandung besi terbanyak
+      di antara planet lain dalam tata surya ini
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  voiceSource: {fileID: 0}
+  startOnAwake: 1
+  onStart:
+    m_PersistentCalls:
+      m_Calls: []
+  onEnd:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 494886723}
+        m_TargetAssemblyTypeName: Dialog, Assembly-CSharp
+        m_MethodName: StartDialog
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &494886723 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2270807212514113525, guid: e9ef5cf34e46dd44696f3c9f4defa218, type: 3}
+  m_PrefabInstance: {fileID: 1946609980}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61c20c8ec2f1b0f43b3c617f0e94383f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1676222249
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -190,7 +515,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3751331623229132543, guid: 3ab7b34a1cb51ad478c4c41d6e2d8ea6, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3751331623229132543, guid: 3ab7b34a1cb51ad478c4c41d6e2d8ea6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -315,13 +640,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 860842293194764517, guid: e9ef5cf34e46dd44696f3c9f4defa218, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2972868022007063024, guid: e9ef5cf34e46dd44696f3c9f4defa218, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6009279719876434736, guid: e9ef5cf34e46dd44696f3c9f4defa218, type: 3}
       propertyPath: m_IsContraintActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6009279719876434737, guid: e9ef5cf34e46dd44696f3c9f4defa218, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6009279719876434737, guid: e9ef5cf34e46dd44696f3c9f4defa218, type: 3}
       propertyPath: m_LocalPosition.x
@@ -369,6 +702,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9ef5cf34e46dd44696f3c9f4defa218, type: 3}
+--- !u!4 &1946609981 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4163198839531411269, guid: e9ef5cf34e46dd44696f3c9f4defa218, type: 3}
+  m_PrefabInstance: {fileID: 1946609980}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2146045614
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -376,6 +714,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1236014802770630940, guid: aaa8dfa3af4ef234d997247342e1e4e9, type: 3}
+      propertyPath: musicClip
+      value: 
+      objectReference: {fileID: 8300000, guid: d4f192e998e1fd948915a9d7897fb004, type: 3}
+    - target: {fileID: 1236014802770630940, guid: aaa8dfa3af4ef234d997247342e1e4e9, type: 3}
+      propertyPath: musicVolume
+      value: 0.4
+      objectReference: {fileID: 0}
     - target: {fileID: 6682121862295576920, guid: aaa8dfa3af4ef234d997247342e1e4e9, type: 3}
       propertyPath: m_Name
       value: Game Manager

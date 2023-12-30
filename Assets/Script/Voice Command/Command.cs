@@ -141,7 +141,7 @@ public class Command : MonoBehaviour
             bool isContain = false;
             foreach (var item in customCommands)
             {
-                if ((item.commands.Contains(value) && item.enable) || item.admin)
+                if (item.commands.Contains(value) && item.enable)
                 {
                     #if(UNITY_EDITOR)
                     StartCoroutine(item.Engine());

@@ -23,6 +23,24 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Tujuan 5/Tujuan 5.unity
     guid: c27244c6a6e4e184b992ad9dadadcec1
+  - enabled: 1
+    path: Assets/Scenes/Tujuan 6/Tujuan 6.unity
+    guid: 824851c963082a3459ef1228d62e3f72
+  - enabled: 1
+    path: Assets/Scenes/Tujuan 7/Tujuan 7.unity
+    guid: e74a3aec8fb101d4fa89b202ed022cb6
+  - enabled: 1
+    path: Assets/Scenes/Tujuan 8/Tujuan 8.unity
+    guid: a146dba1d937a7a4cb041890aa3565da
+  - enabled: 1
+    path: Assets/Scenes/Tujuan 9/Tujuan 9.unity
+    guid: 655cd418b7799764cbc713cb42e3bca7
+  - enabled: 1
+    path: Assets/Scenes/Tujuan 10/Tujuan 10.unity
+    guid: 66b9cf53457b2a742bcdc891df296cde
+  - enabled: 1
+    path: Assets/Scenes/Tujuan 11/Tujuan 11.unity
+    guid: 918bdbd6dbf4ab340a4d2e3effad347c
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 38ebf632cb038894a8670d5d44add99d, type: 2}
     xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: 95d56f1273dcec54485e090e96781bc6, type: 2}

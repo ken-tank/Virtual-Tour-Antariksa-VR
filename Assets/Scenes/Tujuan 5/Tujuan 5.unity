@@ -177,6 +177,655 @@ Transform:
   m_Father: {fileID: 597858091}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &206429756
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 206429757}
+  - component: {fileID: 206429758}
+  m_Layer: 0
+  m_Name: Dialog 1.0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &206429757
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 206429756}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1524670195}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &206429758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 206429756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61c20c8ec2f1b0f43b3c617f0e94383f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  voiceLine:
+  - delayStart: 2
+    voice: {fileID: 8300000, guid: b02ec8cbd0579224bb6918f3bb69aeb8, type: 3}
+    subtitle: 'ah .. Silau..
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: c5c5097d78bbfce41aa62ce3640d411d, type: 3}
+    subtitle: 'Mungkin kita turunkan sedikit cahayanya
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 597858092}
+            m_TargetAssemblyTypeName: UnityEngine.Playables.PlayableDirector, UnityEngine
+            m_MethodName: Play
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+  - delayStart: 1.5
+    voice: {fileID: 8300000, guid: 7c72d48d289910d42a0abf00710df083, type: 3}
+    subtitle: 'Selamat datang di pusat tata surya kita
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 9660d801ef3543749adda9c73af00c32, type: 3}
+    subtitle: 'Matahari
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: fbd504447b0184c41a6ba1ee75c35d8c, type: 3}
+    subtitle: 'Matahari atau Surya adalah sebuah bintang yang menjadi pusat dari
+      tata surya kita
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 9b3eadf5352d42645b18daab29e8a17d, type: 3}
+    subtitle: 'Bentuknya nyaris bulat dan terdiri dari plasma panas bercampur medan
+      magnet
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 4f5a161118ed87741973f447532495a6, type: 3}
+    subtitle: 'Ukuran matahari sangat ... Sangatlah... Besar
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 5b6243c2aabc2b44794bebc6d0443606, type: 3}
+    subtitle: 'yakni dengan Diameternya sekitar 1.392.684 km
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 7315747d0d18d284180047a98fb3c6a0, type: 3}
+    subtitle: 'atau mudah nya
+
+'
+    delayEnd: 0.3
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 2a8defe0707c23946b74790f8ada3791, type: 3}
+    subtitle: 'seperti kita jejerkan 109 bumi secara urut
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 6cec22bc899210a4ebbded2ded7439fe, type: 3}
+    subtitle: 'atau jika kita asumsikan matahari adalah sebuah wadah bulat,
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 8ead7a195a2f39a46aa0d7dc2d5550f5, type: 3}
+    subtitle: 'kita bisa memasukan 1,3 juta bumi di dalam nya, karena saking besarnya
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 1
+    voice: {fileID: 8300000, guid: b64733ed173dfea4eac28703ac9081a5, type: 3}
+    subtitle: "massa dari matahari itu sendiri sangatlah masif  \r\n"
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 845e1734c7629c8429edf971f46733e1, type: 3}
+    subtitle: 'sekitar ...
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0.3
+    voice: {fileID: 8300000, guid: 79238863e95b8c84ba1a81ce9c6fef63, type: 3}
+    subtitle: 'eh ...
+
+'
+    delayEnd: 1
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: e448904fa9be20f41bc1d4ce03a2b81e, type: 3}
+    subtitle: '(Voice Auto)
+
+      1.989.000.000.000.000.000.000.000.000.000 kilogram
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: dafc20a985595c449b31baf212202ac1, type: 3}
+    subtitle: 'intinya 333.000 kali nya massa Bumi
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: c18fecaa65ac38f47a0f49d8073119d1, type: 3}
+    subtitle: "Secara kimiawi, sekitar 3/4 massa matahari terdiri dari hidrogen,
+      sedangkan sisanya didominasi helium. \r\n"
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 6dfcfd0afd5b2b6418e57408515a5f5b, type: 3}
+    subtitle: 'Matahari terbentuk sekitar 4,6 miliar tahun yang lalu akibat peluruhan
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: a0c51c9ee29a06246ae31c6f146fd1d3, type: 3}
+    subtitle: 'gravitasi suatu wilayah di dalam sebuah awan molekul besar.
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: f13994c9ed93e8449aaebf4f260e1937, type: 3}
+    subtitle: 'Sebagian besar materi berkumpul di tengah,
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 4de6252aee0c2da448d60631fab1ea9a, type: 3}
+    subtitle: "sementara sisanya memipih menjadi cakram beredar yang kelak menjadi
+      tata surya. \r\n"
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: e560d5bf94423fa4fa2ce3c8a2f4656b, type: 3}
+    subtitle: 'Massa pusatnya semakin panas dan padat dan akhirnya memulai fusi termonuklir
+      di intinya
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 25087464b8bfffe4c8274aeb54eb8bf5, type: 3}
+    subtitle: 'Warna asli matahari itu sebenarnya bukan kuning lho, melainkan putih
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: c35c8e8b77a9e324d90bafeb96185f92, type: 3}
+    subtitle: 'Meski warnanya putih, dari permukaan Bumi, matahari tampak kuning
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 1691edbaaa35855438db84c0bdf20b64, type: 3}
+    subtitle: 'dikarenakan pembauran cahaya biru di atmosfer
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 0950143bd21ec754998d875f79c441c3, type: 3}
+    subtitle: 'Suhu permukaan Matahari bervariasi tergantung pada lapisan atau zona
+      tertentu
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: ed5f3d6d94e65ac40b2b871af4caf31a, type: 3}
+    subtitle: 'Permukaan yang paling terlihat oleh mata manusia, yang disebut fotosfer
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 35645af6fc18ee8478b1dbc2642b9e79, type: 3}
+    subtitle: "memiliki suhu sekitar 5.500 derajat Celsius \r\n"
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: e620044f014b31345b43a2a2ecf002d6, type: 3}
+    subtitle: 'Bagian luar yang lebih panas yang terlihat selama gerhana matahari
+      yang di sebut Korona
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: e867c9f726f39ce438ab33bdcdf7025d, type: 3}
+    subtitle: 'memiliki suhu yang jauh lebih tinggi, mencapai jutaan derajat Celsius.
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 40ff024df3215d245a4ad0cf74a87ea2, type: 3}
+    subtitle: "Kenapa bagian Korona malah ratusan kali lebih panas? \r\n"
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 67aedd9776857234db390097a1518a9e, type: 3}
+    subtitle: 'masih belum sepenuhnya dipahami oleh peneliti
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: a609f7832f0ab234eb00ef4ad3033f09, type: 3}
+    subtitle: "Dalam intinya, matahari mengalami Fusi 620 juta ton metrik hidrogen
+      setiap detik. \r\n"
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 9755ebceca1b44248b4e65dcab5dcdd7, type: 3}
+    subtitle: 'Korona matahari yang panas terus meluas di luar angkasa
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: ea45fc26cc420ef4e8e4da5a3f73d2d6, type: 3}
+    subtitle: 'dan melepaskan angin matahari
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: f02f93f7aaa407f40ac8c3e9966b24e3, type: 3}
+    subtitle: 'yaitu arus partikel bermuatan yang bergerak ke segala arah
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: dd873b520a8c1f04881512a19f798c8f, type: 3}
+    subtitle: 'angin matahari ini sangatlah berbahaya bagi makhluk hidup apapun
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 49d63abd93dca9c43af63e46a4b44e5f, type: 3}
+    subtitle: 'untungnya, bumi memiliki medan magnet yang sangat kuat untuk melindungi
+      nya dari badai ini
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 27d7e1021a3df5544882c5c2773ff0b0, type: 3}
+    subtitle: 'jika kalian pernah melihat Aurora, itu sebenarnya adalah
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 661b70a3faeac934d88916a84b832329, type: 3}
+    subtitle: 'peristiwa saat bumi sedang berusahan melindungi kita dr serangan badai
+      matahari tersebut
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 1f8c0fa89da76c9458353a4a47988610, type: 3}
+    subtitle: 'dengan medan magnetnya, bumi membelokan angin matahari tersebut
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 0505bb2b963d916429a4e8096d9595c4, type: 3}
+    subtitle: 'dan melemparnya ke luar angkasa dari kutup utara dan kutup selatan
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 934bbabcae647f844bc0a187812c5f20, type: 3}
+    subtitle: 'Sehingga terciptalah Cahaya Aurora yang indah itu
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  voiceSource: {fileID: 0}
+  startOnAwake: 1
+  onStart:
+    m_PersistentCalls:
+      m_Calls: []
+  onEnd:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1524670194}
+        m_TargetAssemblyTypeName: Dialog, Assembly-CSharp
+        m_MethodName: StartDialog
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &537152499
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -532,6 +1181,22 @@ PrefabInstance:
 --- !u!4 &1524670193 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6009279719876434737, guid: e9ef5cf34e46dd44696f3c9f4defa218, type: 3}
+  m_PrefabInstance: {fileID: 1524670192}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1524670194 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2270807212514113525, guid: e9ef5cf34e46dd44696f3c9f4defa218, type: 3}
+  m_PrefabInstance: {fileID: 1524670192}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61c20c8ec2f1b0f43b3c617f0e94383f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1524670195 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4163198839531411269, guid: e9ef5cf34e46dd44696f3c9f4defa218, type: 3}
   m_PrefabInstance: {fileID: 1524670192}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1704346905
