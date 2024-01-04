@@ -218,11 +218,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7904622933346702041, guid: f1bb739733200034abe85a6fb9ed17d1, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.9265943
       objectReference: {fileID: 0}
     - target: {fileID: 7904622933346702041, guid: f1bb739733200034abe85a6fb9ed17d1, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0.37606248
       objectReference: {fileID: 0}
     - target: {fileID: 7904622933346702041, guid: f1bb739733200034abe85a6fb9ed17d1, type: 3}
       propertyPath: m_LocalRotation.y
@@ -234,7 +234,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7904622933346702041, guid: f1bb739733200034abe85a6fb9ed17d1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: -44.18
       objectReference: {fileID: 0}
     - target: {fileID: 7904622933346702041, guid: f1bb739733200034abe85a6fb9ed17d1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -308,6 +308,340 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ab7b34a1cb51ad478c4c41d6e2d8ea6, type: 3}
+--- !u!1 &1797810154
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1797810155}
+  - component: {fileID: 1797810156}
+  m_Layer: 0
+  m_Name: Dalog 1.0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1797810155
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1797810154}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1946609982}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1797810156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1797810154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61c20c8ec2f1b0f43b3c617f0e94383f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  voiceLine:
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 42cb70b299a32924e9167b891a766854, type: 3}
+    subtitle: 'Selamat datang di Planet Es raksaksa
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: a46674938868649448032b48f71243cd, type: 3}
+    subtitle: 'Uranus
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: f1616322b16ec3f43bbb224d8b39ddf4, type: 3}
+    subtitle: 'meski di sebut planet es, tapi permukaan pelanet ini sama
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: de7caded170ecf649b0361fae8bd8e94, type: 3}
+    subtitle: 'seperti jupiter dan saturnus yang terbentung dari gas
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 56a78f40a2e98b44ebfc364392fbc051, type: 3}
+    subtitle: 'kenapa disebut planet es karena sebagian besar komposisinya
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 6057aa4ea4b001a49be2cfad7d477a9c, type: 3}
+    subtitle: ' terdiri dari es, terutama es air, amonia, dan metana
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 97333d00b6676974d86684271ea49f47, type: 3}
+    subtitle: "Sementara itu, pada permukaan planet ini, suhu dan tekanan yang sangat
+      tinggi membuat es berubah \r\n"
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: f5694c4fedc10b546852ec98c0c490c4, type: 3}
+    subtitle: 'menjadi fase yang tidak padat atau kondisi fluida
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: ca2bb9608d5082d4784c05ce9c7ee95c, type: 3}
+    subtitle: 'jadi permukaan planet uranus itu seperti kabut es yang sangat dingin
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 5ed5162dc12387b4ca7508ede14db378, type: 3}
+    subtitle: 'suhu di permukaan urranus bisa mencapai -224 derajat Celsius
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: d6421fa76e6b9d741bc40819dd8b8677, type: 3}
+    subtitle: ' hingga -218 derajat Celsius
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 735307a0baf4e4441a699ab1f0966271, type: 3}
+    subtitle: "sedangkan suhu di dalam intinya mungkin lebih panas, \r\n"
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 23c58e2c9fdd07d4f8f3592859b475ab, type: 3}
+    subtitle: 'karena tekanan dari gravitasi dan atmosferya yang lebih besar
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 46dd77b8ec8bb9748bddcdcc680c972d, type: 3}
+    subtitle: 'Atmosfer Uranus merupakan atmosfer planet terdingin di Tata Surya
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 4a7d6d8f937869644951c59b9d0fb7cc, type: 3}
+    subtitle: 'Atmosfer Uranus mempunyai struktur awan berlapis-lapis dan kompleks
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 04da37763c05dc943a12582a44623ad4, type: 3}
+    subtitle: 'Bagian dalam Uranus sebagian besar terdiri atas es dan bebatuan
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 94ccc1e28d45afc47b4581a8312b6e01, type: 3}
+    subtitle: 'uranus mempunyai diameter 51.118 kilometer, atau 68 kali diameter
+      bumi
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 4b3967e7d3bb38b49964ba09be512d0e, type: 3}
+    subtitle: 'Uranus juga mengitari Matahari sekali dalam 84 tahun
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 71833bc374ef7374eb4fc17ef075b662, type: 3}
+    subtitle: "Jarak rata-ratanya dari Matahari kira-kira 3 miliar km \r\n"
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 728f798b435af534c80f3f4eb48cacc6, type: 3}
+    subtitle: 'itu yang menyebabkan permukaan planet ini menjadi sangat dingin
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 5914952e61fba7b4a89d3b09ea358500, type: 3}
+    subtitle: 'karena sinar matahari mulai melemah karna jaraknya yang sangat jauh
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  voiceSource: {fileID: 0}
+  startOnAwake: 1
+  onStart:
+    m_PersistentCalls:
+      m_Calls: []
+  onEnd:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1946609981}
+        m_TargetAssemblyTypeName: Dialog, Assembly-CSharp
+        m_MethodName: StartDialog
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &1946609980
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -369,6 +703,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9ef5cf34e46dd44696f3c9f4defa218, type: 3}
+--- !u!114 &1946609981 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2270807212514113525, guid: e9ef5cf34e46dd44696f3c9f4defa218, type: 3}
+  m_PrefabInstance: {fileID: 1946609980}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61c20c8ec2f1b0f43b3c617f0e94383f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1946609982 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4163198839531411269, guid: e9ef5cf34e46dd44696f3c9f4defa218, type: 3}
+  m_PrefabInstance: {fileID: 1946609980}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2146045614
 PrefabInstance:
   m_ObjectHideFlags: 0

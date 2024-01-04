@@ -357,6 +357,333 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9ef5cf34e46dd44696f3c9f4defa218, type: 3}
+--- !u!114 &1946609981 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2270807212514113525, guid: e9ef5cf34e46dd44696f3c9f4defa218, type: 3}
+  m_PrefabInstance: {fileID: 1946609980}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61c20c8ec2f1b0f43b3c617f0e94383f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1946609982 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4163198839531411269, guid: e9ef5cf34e46dd44696f3c9f4defa218, type: 3}
+  m_PrefabInstance: {fileID: 1946609980}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2024735434
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2024735435}
+  - component: {fileID: 2024735436}
+  m_Layer: 0
+  m_Name: Dialog 1.0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2024735435
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2024735434}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1946609982}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2024735436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2024735434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61c20c8ec2f1b0f43b3c617f0e94383f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  voiceLine:
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: aaff9af1285afa9428c2347dec02acbc, type: 3}
+    subtitle: 'selamat datang di planet terjauh di sistem tata surya kita
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 58594352d69402147b94f6ea8f532f65, type: 3}
+    subtitle: 'Neptunus
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 29878c1d120896a4297e87bb82c62d09, type: 3}
+    subtitle: "dengan diameter sekitar 49.244 kilometer \r\n"
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 0711f4d301431394cb29a0cb66313562, type: 3}
+    subtitle: 'Neptunus menjadi planet terbesar keempat di tata surya
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: ce504b7855809f7449a96c408bf75a8c, type: 3}
+    subtitle: 'Jarak Neptunus dengan Matahari adalah sekitar 4,50 miliar km
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 91a7f3d946d49644190cc7f581d7c71e, type: 3}
+    subtitle: 'Periode rotasi planet ini adalah 16,1 jam
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: eb75e051cef94104e89f3fc89270cc4b, type: 3}
+    subtitle: 'sedangkan periode revolusinya adalah 164,8 tahun
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 4d226e2e55d3fba4e8acff4a8de2a09f, type: 3}
+    subtitle: 'yang menjadikan planet neptunus sebagai planet dengan revolusi terlama
+      di tata surya
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: cb55a56c9028a4243bb89d83575ea7d3, type: 3}
+    subtitle: 'komposisi penyusun planet ini mirip dengan Uranus
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: b464b57d6b325a14db73ab80692699bc, type: 3}
+    subtitle: "Astronom kadang-kadang mengategorikan Uranus dan Neptunus sebagai
+      \"raksasa es\" \r\n"
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 958d16b5e18b0f642b3a5355b56fb359, type: 3}
+    subtitle: 'untuk menekankan perbedaannya
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: da7a9bad3b02fce4a9048bb69d1bf9e4, type: 3}
+    subtitle: 'Seperti Uranus, interior Neptunus terdiri dari es dan batu
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 0d8641fe6669dd547a4e52fac5a1deec, type: 3}
+    subtitle: 'Metana di wilayah terluar planet merupakan salah satu penyebab warna
+      kebiruan Neptunus
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 79a28f8e873e05e4096877e26ddbcf57, type: 3}
+    subtitle: 'Salah satu perbedaan antara Neptunus dan Uranus adalah tingkat aktivitas
+      meteorologinya
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 707b3658817eb6848aa313198265cce4, type: 3}
+    subtitle: 'atmosfer Neptunus bersifat aktif dan menunjukkan pola cuaca
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 334fb8abd24f4554d89ca7cfafddca35, type: 3}
+    subtitle: 'Pola cuaca tersebut diakibatkan oleh angin yang sangat kencang
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: b9da964388737e24aa3fedf975d8f587, type: 3}
+    subtitle: 'dengan kecepatan hingga 2.100 km/jam. Bahkan melebihi badai Jupiter
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: f1beefcb55dc2df419e064514a737bac, type: 3}
+    subtitle: 'membuat planet ini di sebut planet dengan kecepatan angin tecepat
+      di tata surya
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 7337be36bb64b514fa41007edaf53258, type: 3}
+    subtitle: "Neptunus memiliki massa 17 kali massa Bumi \r\n"
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  voiceSource: {fileID: 0}
+  startOnAwake: 1
+  onStart:
+    m_PersistentCalls:
+      m_Calls: []
+  onEnd:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1946609981}
+        m_TargetAssemblyTypeName: Dialog, Assembly-CSharp
+        m_MethodName: StartDialog
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &2146045614
 PrefabInstance:
   m_ObjectHideFlags: 0

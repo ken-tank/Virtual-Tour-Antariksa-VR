@@ -5166,6 +5166,482 @@ PlayableDirector:
     value: {fileID: 225428533}
   m_ExposedReferences:
     m_References: []
+--- !u!1 &507499688
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 507499689}
+  - component: {fileID: 507499690}
+  m_Layer: 0
+  m_Name: Dialog 1.0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &507499689
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 507499688}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1946609981}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &507499690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 507499688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61c20c8ec2f1b0f43b3c617f0e94383f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  voiceLine:
+  - delayStart: 2
+    voice: {fileID: 8300000, guid: af35d81b8677fa743ae8dffc911d35c8, type: 3}
+    subtitle: 'Selamat datang di Jupiter
+
+'
+    delayEnd: 0.4
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 5b4df07a0985bee4ab2c0daa8fa3cf1c, type: 3}
+    subtitle: 'Planet Terbesar di tata surya
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 9089de08ce9a8804b8eba331510d7ca3, type: 3}
+    subtitle: 'Jupiter merupakan raksasa gas dengan massa 1/1000 massa Matahari
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 8e5b7b27f7bd4494e847c35dafd35572, type: 3}
+    subtitle: 'dan dua setengah kali jumlah massa semua planet lain di Tata Surya
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: c206b1460a22699439ecd7eecf16561d, type: 3}
+    subtitle: 'Jupiter sebagian besar terdiri dari hidrogen dan helium
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 21301f5731661b84ca5140f802b5d458, type: 3}
+    subtitle: "Seperempat massa Jupiter merupakan helium, \r\n"
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: e05faf82f0f4b0c49a4f0c44846d6ec6, type: 3}
+    subtitle: 'Jadi Planet raksaksa ini sebagian besar adalah Gas, jadi planet ini
+      tidak memiliki permukaan untuk di pijak
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 5cb88f4f545cc1d4fb15f7b0719dcfd0, type: 3}
+    subtitle: 'jika kalian mencoba mendarat di planet ini, kalian akan
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 10041990226982041be5670224e5615a, type: 3}
+    subtitle: 'langsung tenggelam ke dalam inti jupiter yang di selimuti oleh gas
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 1c9513670dac71544ae0cd68ca98afa8, type: 3}
+    subtitle: 'meski begitu, planet ini tidak sepenuhnya terbuat dari gas
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 58ba551e6228cfb488db5125208decf9, type: 3}
+    subtitle: 'Planet ini mungkin memiliki inti padat yang terdiri dari unsur-unsur
+      berat
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: d3e999e7eb41bab439f9f7ad5df174fe, type: 3}
+    subtitle: "Akibat rotasinya yang cepat, planet ini berbentuk bulat pepat \r\n"
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 2b83ce6351bf0fa4d93e510b1f010be2, type: 3}
+    subtitle: 'planet ini akan mengorbit matahari setiap 11,86 tahun sekali
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 8bb4a3a6dd3b38d4fa2b45173dfee2a4, type: 3}
+    subtitle: 'Atmosfer luar terbagi menjadi beberapa lapisan di lintang yang berbeda
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: d5c21e11c042127429003703b939a9a1, type: 3}
+    subtitle: 'dan interaksi antara batas-batas lapisan tersebut menghasilkan badai
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 939e36bcb317573498d253e8425fb19d, type: 3}
+    subtitle: 'Salah satu dampaknya adalah Bintik Merah Raksasa
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: c24a1d5b0138ba84ca9854dee82176d9, type: 3}
+    subtitle: 'coba kalian lihat ada bintik merah di permukaan jupiter kan
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: a4fab10f61d81db4b9335af585297473, type: 3}
+    subtitle: 'itu sebenarnya adalah pusaran badai raksaksa, yang ukurannya
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 2d8cc5d7a1f79a44394ae7b70abf887f, type: 3}
+    subtitle: 'bahkan mampu untuk menelan seluruh planet bumi masuk ke badai tersebut
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: e853ca3af92daf54b9c2d023fcee53db, type: 3}
+    subtitle: 'Selain itu terdapat paling tidak 67 satelit alami
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 3f7341bd5bbeca342ba23496157641b2, type: 3}
+    subtitle: 'salah satunya adalah tempat dimana kita saat ini berdiri
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: b31103041ed2cb44aa85dd5a4fb268f1, type: 3}
+    subtitle: 'Massa Jupiter adalah sekitar 318 kali massa Bumi, sehingga gravitasinya
+      sangat kuat
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 284deb2f66130e844b8b5fd814aa31d6, type: 3}
+    subtitle: 'Interaksi gravitasi ini dapat mempengaruhi orbit objek-objek kecil
+      yang berada di dekatnya
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: ad54dfab9cae19b4082f30e9a68f9ae6, type: 3}
+    subtitle: "Dalam hal ini, Jupiter berfungsi sebagai \"penjaga\" atau \"pembersih\"
+      \r\n"
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: c17aa16c3c361ea48b446c6e0c084628, type: 3}
+    subtitle: "karena dapat menarik atau mengalihkan objek-objek tersebut dari jalur
+      \r\n"
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: a9c16891b40db0748be111487ff389a0, type: 3}
+    subtitle: 'yang akan membawa mereka mendekati Bumi atau planet lain.
+
+'
+    delayEnd: 2
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 7324f90ae156c6a48bceb7919a274b09, type: 3}
+    subtitle: 'oh lihat, itu salah satunya
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 280723659}
+            m_TargetAssemblyTypeName: UnityEngine.Playables.PlayableDirector, UnityEngine
+            m_MethodName: Play
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 64d798b2ade5dc5459e9c0fc75633170, type: 3}
+    subtitle: 'ada asteroid yang tertarik oleh gravitasi kuat dari planet jupiter
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 658926a802b0a70439d17162a1e81281, type: 3}
+    subtitle: 'asteroid itu akan masuk menembus selimut gas jupiter, dan berakhir
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 8a3f59b2118098f47b998716f5271b57, type: 3}
+    subtitle: 'atau menyatu dengan inti jupiter
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  voiceSource: {fileID: 0}
+  startOnAwake: 1
+  onStart:
+    m_PersistentCalls:
+      m_Calls: []
+  onEnd:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 594570432}
+        m_TargetAssemblyTypeName: Dialog, Assembly-CSharp
+        m_MethodName: StartDialog
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &594570432 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2270807212514113525, guid: e9ef5cf34e46dd44696f3c9f4defa218, type: 3}
+  m_PrefabInstance: {fileID: 1946609980}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61c20c8ec2f1b0f43b3c617f0e94383f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &679106409
 GameObject:
   m_ObjectHideFlags: 0
@@ -5215,6 +5691,11 @@ MonoBehaviour:
   multiply: 0.6
   speed: {x: 0, y: -1, z: 0}
   isLocal: 1
+--- !u!1 &1077705359 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5719957840907311758, guid: 8a155ead97699ba4485da49c2ae3d1b4, type: 3}
+  m_PrefabInstance: {fileID: 1607610466}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1092142882
 GameObject:
   m_ObjectHideFlags: 0
@@ -5334,15 +5815,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3566126907849200441, guid: 8a155ead97699ba4485da49c2ae3d1b4, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.26749063
+      value: 0.7592145
       objectReference: {fileID: 0}
     - target: {fileID: 3566126907849200441, guid: 8a155ead97699ba4485da49c2ae3d1b4, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.9635605
+      value: 0.65084046
       objectReference: {fileID: 0}
     - target: {fileID: 5719957840907311756, guid: 8a155ead97699ba4485da49c2ae3d1b4, type: 3}
       propertyPath: properties.currentPlanetAngle
-      value: 148.97
+      value: 81.21
       objectReference: {fileID: 0}
     - target: {fileID: 5719957840907311757, guid: 8a155ead97699ba4485da49c2ae3d1b4, type: 3}
       propertyPath: m_RootOrder
@@ -5362,11 +5843,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5719957840907311757, guid: 8a155ead97699ba4485da49c2ae3d1b4, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.9906291
       objectReference: {fileID: 0}
     - target: {fileID: 5719957840907311757, guid: 8a155ead97699ba4485da49c2ae3d1b4, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0.13658012
       objectReference: {fileID: 0}
     - target: {fileID: 5719957840907311757, guid: 8a155ead97699ba4485da49c2ae3d1b4, type: 3}
       propertyPath: m_LocalRotation.y
@@ -5378,7 +5859,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5719957840907311757, guid: 8a155ead97699ba4485da49c2ae3d1b4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: -15.7
       objectReference: {fileID: 0}
     - target: {fileID: 5719957840907311757, guid: 8a155ead97699ba4485da49c2ae3d1b4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -5399,6 +5880,27 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5719957840907311757, guid: 8a155ead97699ba4485da49c2ae3d1b4, type: 3}
   m_PrefabInstance: {fileID: 1607610466}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &1607610469
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077705359}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &1676222249
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5627,6 +6129,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9ef5cf34e46dd44696f3c9f4defa218, type: 3}
+--- !u!4 &1946609981 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4163198839531411269, guid: e9ef5cf34e46dd44696f3c9f4defa218, type: 3}
+  m_PrefabInstance: {fileID: 1946609980}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2146045614
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5746,6 +6253,22 @@ PrefabInstance:
     - target: {fileID: 5480120690557318262, guid: 7a2a80aa85c802e4c8de3b9a7aa2b222, type: 3}
       propertyPath: m_Intensity
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5480120690557318262, guid: 7a2a80aa85c802e4c8de3b9a7aa2b222, type: 3}
+      propertyPath: m_Shadows.m_Bias
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5480120690557318262, guid: 7a2a80aa85c802e4c8de3b9a7aa2b222, type: 3}
+      propertyPath: m_Shadows.m_Strength
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5480120690557318262, guid: 7a2a80aa85c802e4c8de3b9a7aa2b222, type: 3}
+      propertyPath: m_Shadows.m_NormalBias
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5480120690557318262, guid: 7a2a80aa85c802e4c8de3b9a7aa2b222, type: 3}
+      propertyPath: m_Shadows.m_Resolution
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 5480120690557318263, guid: 7a2a80aa85c802e4c8de3b9a7aa2b222, type: 3}
       propertyPath: m_Name

@@ -80,7 +80,7 @@ public class Dialog : MonoBehaviour
 
     public void StopDialog() 
     {
-        subtitleManager.HideSubtitle();
+        if (subtitleManager) subtitleManager.HideSubtitle();
         if (!voiceSource) GameManager.instance.audioManager.voice.Stop();
         else voiceSource.Stop();
         StopAllCoroutines();

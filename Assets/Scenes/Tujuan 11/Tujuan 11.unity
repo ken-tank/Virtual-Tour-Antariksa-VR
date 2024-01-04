@@ -1870,6 +1870,422 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 654803410}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &725938223
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 725938224}
+  - component: {fileID: 725938225}
+  m_Layer: 0
+  m_Name: Dialog 1.0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &725938224
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 725938223}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1946609981}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &725938225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 725938223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61c20c8ec2f1b0f43b3c617f0e94383f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  voiceLine:
+  - delayStart: 1
+    voice: {fileID: 8300000, guid: 6236c8cc42d236a4caecbf1aa58f1822, type: 3}
+    subtitle: 'Terimakasih telah mengikuti virtual tour hingga akhir
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 7d8c170ff26b9724b93dce42bebbd3d0, type: 3}
+    subtitle: 'berikut adalah simulasi dari seluruh tata surya dengan ukuran perbandingan
+      yang akurat
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 2b1f3bdf881ce6f4e8dab7a9461771d0, type: 3}
+    subtitle: 'terkecuali untuk jarak orbitnya, karena jika dengan
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 240d74085cc274f46bafa156bc54ede9, type: 3}
+    subtitle: 'jarak aslinya, kita tidak akan bisa melihat apapun, karena jaraknya
+      yang teramat jauh
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 73bd25413a92acf48a6be1be7dc15ee4, type: 3}
+    subtitle: 'terlihat itu yang di tengah dan yang menjadi pusat
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: cb119438993494d4288a488ce4ae2ffc, type: 3}
+    subtitle: 'adalah Matahari
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: f9818a86bf65bc54ab9d29c49e93b6f7, type: 3}
+    subtitle: 'selanjutnya di dekatnya yang mengorbit tercepat adalah Merkurius
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: a5ee361cf7051f94a92259164261c304, type: 3}
+    subtitle: 'urutan kedua Venus
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: d240db0183f5fbb45a4c604c8219499d, type: 3}
+    subtitle: 'Dan ketiga Bumi
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 3f024b35d4bafcf479393f512b7786df, type: 3}
+    subtitle: 'keempat Mars
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: d947457be53b3fd47b7cd54a47c5e162, type: 3}
+    subtitle: 'Kelima Jupiter
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 24e5ef59df15d4c499a2858a82d63380, type: 3}
+    subtitle: 'Keenam Saturnus
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 973e9706d0f748f4384f0d2f21d6732a, type: 3}
+    subtitle: 'Ketujuh Uranus
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 7c89372cb23886b49b5400a7ea95014a, type: 3}
+    subtitle: 'dan Terakhir, dan terjauh Neptunus
+
+'
+    delayEnd: 0.3
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 9ed56fa2728641640af58c6f9bc6d663, type: 3}
+    subtitle: 'Jika ingin menutup aplikasi ini
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 5be57e8972b5d3b48af8d83326055ccd, type: 3}
+    subtitle: 'bisa dengan cara ucapkan "Keluar Aplikasi" saat melakukan Voice Command
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 9a99dfccb3308f641aa0666b8ed9d8ae, type: 3}
+    subtitle: "atau jika ingin memulai lagi dari awal\r \nbisa ucapkan \"Ulangi dari
+      Awal\"\r\n\n"
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 1cacb6111a101c24d9ee66cd2f38e3af, type: 3}
+    subtitle: 'atau jika ingin meng eksplorasi secara individual
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: d2fd9224bf538c846b0bd8312d394939, type: 3}
+    subtitle: 'bisa ucapkan "Pergi ke Tujuan" di tambah dengan Nomor Tujuan
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 39b228022c7e6dc40b0cb2a1a5b053e6, type: 3}
+    subtitle: 'contohnya jika ingin pergi ke tujuan 4 yaitu merkurius
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: bcf93aebed1187d4dad7f9d730264e82, type: 3}
+    subtitle: 'bisa ucapkan "pergi ke tujuan 4"
+
+'
+    delayEnd: 0.3
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 19f629a8abbf1a449b8e2e0e5ef695f9, type: 3}
+    subtitle: 'informasi penting
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: dc375fa0c7b6f0647b045fc8af4f6beb, type: 3}
+    subtitle: 'untuk menggunakan perintah tujuan ini
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: dc1eac4d809f834419f942ae6633d007, type: 3}
+    subtitle: 'nomor tujuan hanya tersedia dari 1 hingga 11 ya
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: d54e0a6adba73e7439d5461e7ccd6639, type: 3}
+    subtitle: 'dan tujuan 11 itu adalah di sini, yaitu kredit scene
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: a493b9b23d59dfa489d1782736b1629f, type: 3}
+    subtitle: 'Terimakasih
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  voiceSource: {fileID: 0}
+  startOnAwake: 1
+  onStart:
+    m_PersistentCalls:
+      m_Calls: []
+  onEnd:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1946609982}
+        m_TargetAssemblyTypeName: VoiceListener, Assembly-CSharp
+        m_MethodName: SetListenerEnable
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1946609983}
+        m_TargetAssemblyTypeName: Command, Assembly-CSharp
+        m_MethodName: AdminMode
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!1 &738953588
 GameObject:
   m_ObjectHideFlags: 0
@@ -5210,6 +5626,33 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9ef5cf34e46dd44696f3c9f4defa218, type: 3}
+--- !u!4 &1946609981 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4163198839531411269, guid: e9ef5cf34e46dd44696f3c9f4defa218, type: 3}
+  m_PrefabInstance: {fileID: 1946609980}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1946609982 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2721374490328268647, guid: e9ef5cf34e46dd44696f3c9f4defa218, type: 3}
+  m_PrefabInstance: {fileID: 1946609980}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e205b12bb623d94ca94d8ccb23693cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1946609983 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6347869835010760486, guid: e9ef5cf34e46dd44696f3c9f4defa218, type: 3}
+  m_PrefabInstance: {fileID: 1946609980}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9a0c1b64eab8024fb26096743d12769, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2060915228
 GameObject:
   m_ObjectHideFlags: 0

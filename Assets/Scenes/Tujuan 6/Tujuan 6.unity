@@ -251,6 +251,319 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1128639086566172481, guid: ef6339e7497be364b872c814c713e0f3, type: 3}
   m_PrefabInstance: {fileID: 791816574}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &978754097
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 978754098}
+  - component: {fileID: 978754099}
+  m_Layer: 0
+  m_Name: Dialog 1.0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &978754098
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 978754097}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1946609981}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &978754099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 978754097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61c20c8ec2f1b0f43b3c617f0e94383f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  voiceLine:
+  - delayStart: 1
+    voice: {fileID: 8300000, guid: 73b5da2d9e199ad4ea86937b5ac6bac3, type: 3}
+    subtitle: 'Selamat datang di Mars
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: aa4dc5d4cbf84354eb2ad63bf7902aea, type: 3}
+    subtitle: 'Mars adalah planet terdekat keempat dari Matahari
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: c5f1e32c7f0306b4eac07fa362c63146, type: 3}
+    subtitle: 'Planet ini sering dijuluki sebagai "planet merah" karena tampak dari
+      jauh berwarna kemerah-kemerahan
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 3e48a0c5d10b206499be0689c99852d8, type: 3}
+    subtitle: 'Mars adalah planet bebatuan dengan atmosfer yang tipis
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 97fc7d6d1d64f3641a3a57ae88920cc6, type: 3}
+    subtitle: 'Di permukaan Mars terdapat kawah, gunung berapi, lembah, gurun, dan
+      tudung es
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: d18541e2c30f5e74486e71aeca0582a4, type: 3}
+    subtitle: 'Periode rotasi dan juga siklus musim Mars mirip dengan Bumi
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 80588f5cb52573d40925ccff61ac0d77, type: 3}
+    subtitle: "Mars memiliki diameter rata-rata sekitar 6.779 kilometer \r\n"
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 49267414efe0ce748a158523481aac63, type: 3}
+    subtitle: 'atau setengah dari ukuran bumi
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 9229857b41c79d74c93b10b8e24e2acc, type: 3}
+    subtitle: 'Planet ini memiliki 2 satelit
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: ac23b141b31b24449b31f6a4bf68f99f, type: 3}
+    subtitle: 'yaitu Fobos dan Deimos
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: e3a4e6e7a0193894cbe6a692374a4497, type: 3}
+    subtitle: 'Planet ini mengorbit selama 687 hari dalam mengelilingi Matahari
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 7488ae83e818b2e48ad39f9442e27f21, type: 3}
+    subtitle: 'Planet ini juga berotasi 360 derajat selama 25,62 jam
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: c7e358023f2f8664a89e9e780f0cc14b, type: 3}
+    subtitle: '1 hari di sana hampir mirip seperti 1 hari di bumi
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: d5d3e04eda151b046892fd90afdac2ea, type: 3}
+    subtitle: 'meski begitu, jika kamu ingin tinggal di sana
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: bcf259b32dd2b2c49ac5987517ec0435, type: 3}
+    subtitle: 'kamu akan memerlukan tabung oksigen yang banyak
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: adde738b69f5bd24492de28421a2bc41, type: 3}
+    subtitle: 'sebab udara di planet mars sebagian besar adalah karbondioksida
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 6db27c122b391b84bb55b03e3262b40c, type: 3}
+    subtitle: 'serta suhu permukaan planet ini di kisaran
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: c7f455e4b52fe9d4a9f9a59d3430bc30, type: 3}
+    subtitle: 'minimal -87 derajat celsius dan maksimal di -5 derajat celsius
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  - delayStart: 0
+    voice: {fileID: 8300000, guid: 1760d31f71f7f5944ac77043a417bbc4, type: 3}
+    subtitle: 'yang membuat tinggal di sana serasa seperti tinggal di kutup utara
+      tanpa oksigen
+
+'
+    delayEnd: 0
+    events:
+      onStart:
+        m_PersistentCalls:
+          m_Calls: []
+      onEnd:
+        m_PersistentCalls:
+          m_Calls: []
+  voiceSource: {fileID: 0}
+  startOnAwake: 1
+  onStart:
+    m_PersistentCalls:
+      m_Calls: []
+  onEnd:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1946609982}
+        m_TargetAssemblyTypeName: Dialog, Assembly-CSharp
+        m_MethodName: StartDialog
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &1676222249
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -369,6 +682,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e9ef5cf34e46dd44696f3c9f4defa218, type: 3}
+--- !u!4 &1946609981 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4163198839531411269, guid: e9ef5cf34e46dd44696f3c9f4defa218, type: 3}
+  m_PrefabInstance: {fileID: 1946609980}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1946609982 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2270807212514113525, guid: e9ef5cf34e46dd44696f3c9f4defa218, type: 3}
+  m_PrefabInstance: {fileID: 1946609980}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61c20c8ec2f1b0f43b3c617f0e94383f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2146045614
 PrefabInstance:
   m_ObjectHideFlags: 0
