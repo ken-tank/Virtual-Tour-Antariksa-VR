@@ -722,6 +722,11 @@ MonoBehaviour:
     - lanjutkan
     - yuk
     - ayuk
+    - ketempat selanjutnya
+    - ke tempat selanjutnya
+    - tempat selanjutnya
+    - pergi ke tempat selanjutnya
+    - ayo pergi
     onResult:
       m_PersistentCalls:
         m_Calls:

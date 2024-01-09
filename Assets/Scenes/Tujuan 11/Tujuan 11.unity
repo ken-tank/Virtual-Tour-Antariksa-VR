@@ -977,7 +977,7 @@ TrailRenderer:
     textureMode: 0
     shadowBias: 0.5
     generateLightingData: 0
-  m_MinVertexDistance: 0.01
+  m_MinVertexDistance: 0.0001
   m_Autodestruct: 0
   m_Emitting: 1
 --- !u!1 &421345502
@@ -1396,7 +1396,7 @@ TrailRenderer:
     textureMode: 0
     shadowBias: 0.5
     generateLightingData: 0
-  m_MinVertexDistance: 0.01
+  m_MinVertexDistance: 0.00001
   m_Autodestruct: 0
   m_Emitting: 1
 --- !u!1 &529282995 stripped
@@ -4053,7 +4053,7 @@ TrailRenderer:
     textureMode: 0
     shadowBias: 0.5
     generateLightingData: 0
-  m_MinVertexDistance: 0.01
+  m_MinVertexDistance: 0.001
   m_Autodestruct: 0
   m_Emitting: 1
 --- !u!1 &1218624252
@@ -5965,7 +5965,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8368117129116369300, guid: f3c65eba4ddead44788376d157e44316, type: 3}
       propertyPath: spaceTime
-      value: 1e+9
+      value: 100000000
       objectReference: {fileID: 0}
     - target: {fileID: 8368117129116369302, guid: f3c65eba4ddead44788376d157e44316, type: 3}
       propertyPath: m_Name
